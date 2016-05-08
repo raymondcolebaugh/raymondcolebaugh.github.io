@@ -1,0 +1,27 @@
+<header class="page-header">
+
+  <div class="wrapper">
+  <div class="row">
+
+      <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  </div>
+  <div class="row">
+  <div class="col-md-8">
+      <h2><small>{{ site.subtitle }}</small></h2>
+  </div>
+
+  <div class="col-md-4">
+      <ul class="nav nav-pills">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>
+
+  </div>
+  </div>
+
+</header>
+<hr />
