@@ -41,8 +41,8 @@ hr {
     width: 100%;
     position: relative;
     bottom: 0px;
-    min-height: 204px;
-    max-height: 204px;
+    min-height: 240px;
+    max-height: 240px;
     color: white;
     .footer-col-wrapper { color: white; }
     .panel {
@@ -51,6 +51,7 @@ hr {
         -webkit-border-radius: 15px;
         -moz-border-radius: 15px;
         border-radius: 15px;
+        min-width: 60%;
     }
 }
 

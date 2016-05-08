@@ -18,6 +18,7 @@ twitter_username: rcolebaugh
 github_username:  raymondcolebaugh
 bitbucket_username:  raymondcolebaugh
 linkedin_username: raymondcolebaugh
+bitcoin_address: 1Dn2JSjGt1XGPQRq698JqHzzV1cSEK8HYf
 
 # Build settings
 markdown: kramdown
@@ -30,3 +31,9 @@ assets:
     assets:
     - "*.png"
     - "*.jpg"
+    - "*.pdf"
+    sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/docs

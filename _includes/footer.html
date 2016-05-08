@@ -9,7 +9,8 @@
       <div class="col-md-4">
         <ul class="contact-list">
           <li>{{ site.subtitle }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i>{{ site.email }}</a></li>
+          <li><a href="/assets/Raymond_Colebaugh-resume.pdf"><i class="fa fa-file-pdf-o"></i>Resum&eacute;</a></li>
         </ul>
       </div>
 
@@ -43,6 +44,8 @@
 
       <div class="col-md-4">
         <p>{{ site.description }}</p>
+
+        <p>Leave me a tip using bitcoin at <a href="bitcoin:{{ site.bitcoin_address }}">{{ site.bitcoin_address }}</a></p>
       </div>
     </div>
 
