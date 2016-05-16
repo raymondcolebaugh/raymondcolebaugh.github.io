@@ -32,6 +32,7 @@ assets:
     - "*.png"
     - "*.jpg"
     - "*.pdf"
+    - "*.txt"
     sources:
     - _assets/images
     - _assets/javascripts

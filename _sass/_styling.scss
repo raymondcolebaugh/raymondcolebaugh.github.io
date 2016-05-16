@@ -3,6 +3,11 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+$header_height: 140px;
+$footer_height: 240px;
+
+html, body { height: 100%; }
+
 .transparent {
    zoom: 1;
    filter: alpha(opacity=90);
@@ -22,27 +27,32 @@ hr {
 
 .page-header {
     background-image: url("/assets/hills_header.png");
+    background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
-    min-height: 140px;
-    max-height: 140px;
+    min-height: $header_height;
+    max-height: $header_height;
 }
 
 .page-content {
     min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: -$header_height auto -$footer_height;
 }
 
-.push { min-height: 240px; }
-
 .page-footer {
-    @extend .site-footer;
+
     padding-top: 0px;
     background-image: url("/assets/hills_footer.png");
+    background-size: cover;
     width: 100%;
-    position: relative;
-    bottom: 0px;
-    min-height: 240px;
-    max-height: 240px;
+    min-height: $footer_height;
+    max-height: $footer_height;
+    @media (max-width: 980px) {
+        min-height: $footer_height * 2;
+        max-height: $footer_height * 2;
+    }
     color: white;
     .footer-col-wrapper { color: white; }
     .panel {
@@ -51,7 +61,10 @@ hr {
         -webkit-border-radius: 15px;
         -moz-border-radius: 15px;
         border-radius: 15px;
-        min-width: 60%;
+        min-width: 72%;
+        @media (max-width:600px) {
+            margin: 24px;
+        }
     }
 }
 

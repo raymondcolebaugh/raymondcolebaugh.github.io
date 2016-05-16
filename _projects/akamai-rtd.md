@@ -1,9 +1,5 @@
 ---
 title: Akamai Resource Timing Data
-layout: page
-description: Akamai Resource Timing Data analysis project
 ---
 For the UCSC computer science software development series, I had the opportunity to work on a research project sponsored by Akamai Technologies to analyze resource timing data collected from their network to predict performance improvements gained by applying the available optimization techniques on Akamai's Content Distribution Network. I wrote Puppet manifests to automatically configure uniform development enviroments, including support for Apache, BIND9, Hadoop, Impala, Pandas, Numpy, and Akamai's Perl resource timing data analysis framework, as well as contribute to development of Python data analysis scripts for predicting successful performance optimizations. 
 
-<div class="push"></div>
-<div class="push"></div>

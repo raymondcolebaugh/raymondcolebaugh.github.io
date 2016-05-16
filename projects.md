@@ -6,11 +6,18 @@ permalink: /projects/
 
 {% for project in site.projects %}
   {% if project.title %}
-### [{{ project.title }}]({{ project.url | prepend: site.baseurl }})
-  
-{{ project.description }}
+### {{ project.title }}
+--------------------------------------
+
+{{ project.content }}
+
+{% if project.link %}
+* [Website]({{ project.link }})
+{% endif %}
+{% if project.repo %}
+* [Code]({{ project.repo }})
+{% endif %}
 
   {% endif %}
 {% endfor %}
 
-<div class="push"></div>
