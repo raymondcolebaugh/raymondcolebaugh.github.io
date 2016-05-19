@@ -29,10 +29,12 @@ gems:
     - jekyll-assets
 assets:
     assets:
+    - "*.js"
     - "*.png"
     - "*.jpg"
     - "*.pdf"
     - "*.txt"
+    - "*.asc"
     sources:
     - _assets/images
     - _assets/javascripts

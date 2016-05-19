@@ -24,9 +24,6 @@ function decodePhone(elem) {
  * Set up event handlers on ready
  */
 $(function() {
-    var screenHeight = window.screen.height;
-    var screenWidth = window.screen.width;
-
     // Decode email addresses on click
     $(".email-link").click (function(event) {
         event.preventDefault();
@@ -39,23 +36,7 @@ $(function() {
         decodePhone( $(this) );
     });
 
-    // Toggle PGP key dialog
-    $(".pgp-link").click (function(event) {
-        event.preventDefault();
-        $("#pgpkey-dialog").dialog("open");
-    });
-
-    // Initialize PGP key dialog and start closed
-    $("#pgpkey-dialog").dialog({
-        dialog: true,
-        width: screenWidth / 2,
-        height: screenHeight / 2,
-        buttons: {
-            Ok: function() {
-                $( this ).dialog ("close");
-            }
-        }
-    });
-    $("#pgpkey-dialog").dialog("close");
+    // Remove href attribute when JS is enabled for proper modal initialization
+    $(".key-link").attr ('href', '#');
 });
 

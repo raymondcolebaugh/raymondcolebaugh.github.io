@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <div class="row">
     <div class="col-md-6">
-        <img src="/assets/avatar.png">
+        {% image avatar.png %}
     </div>
     <div id="practicing" class="col-md-6">
         Currently I'm practicing:
@@ -32,9 +32,25 @@ and prefer to stay on the command line.
 </p>
 
 <p>
-If you'd like to hire me for contract work, please feel free to send me an email at [email hidden] or give me a call via Google Voice at [phone number hidden]. Please give me a general idea of the extent of the project at hand, and I can begin to scope the projects and work out a quote with you. 
+You can <a href="#" data-toggle="modal" data-target="#hireme-modal">hire me</a> for contract work, or send me an email at <a href="#" class="email-link" data-email="cmF5bW9uZGNvbGViYXVnaEBnbWFpbC5jb20">[email hidden]</a> or give me a call via Google Voice at <a href="#" class="phone-link" data-phone="KDgzMSkgNTE1IDYwMzA=">[phone number hidden]</a> to discuss the project at hand, and I can begin to scope the project and provide an estimate.
+          </li>
 </p>
 
 </div>
 
-<div class="push"></div>
+<div class="modal fade" id="hireme-modal" tabindex="-1" role="dialog" aria-labelledby="hireme-modal-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="hireme-modal-label">Hire Me</h4>
+      </div><!-- .modal-header -->
+      <div class="modal-body text-center">
+        <iframe name="web-form-iframe" src="https://crm.colebaugh.com/index.php/services/services/webForm?iframeHeight=500&webFormId=7&css=" frameborder="0" allowtransparency="true" scrolling="0" width="300" height="500"></iframe>
+      </div><!-- .modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div><!-- .modal-footer -->
+    </div><!-- .modal-content -->
+  </div><!-- .modal-dialog -->
+</div><!-- #key-modal -->
