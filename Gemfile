@@ -4,7 +4,6 @@ gem 'jekyll'
 gem 'jekyll-assets'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'reduce'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
