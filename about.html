@@ -10,8 +10,9 @@ permalink: /about/
     <div id="practicing" class="col-md-6">
         Currently I'm practicing:
         <ul>
-            <li>More Algorithms</li>
-            <li>Node.js and Backbone.js</li>
+            {%  for activity in site.practicing %}
+            <li>{{ activity }}</li>
+            {% endfor %}
         </ul>
     </div>
 </div>
@@ -38,6 +39,21 @@ You can <a href="#" data-toggle="modal" data-target="#hireme-modal">hire me</a> 
 
 </div>
 
+
+<div class="row">
+<h2>Work Experience</h2>
+{% for employer in site.data.employers %}
+<h3 class="page-header">
+    {{ employer.name }}
+    <small>
+        <div>{{ employer.title }}</div>
+        <div>{{ employer.dates }}</div>
+    </small>
+</h3>
+
+<p>{{ employer.desc }}</p>
+{% endfor %}
+</div>
 
 {% include newsletter.html %}
 
