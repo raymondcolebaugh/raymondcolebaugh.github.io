@@ -4,8 +4,14 @@ layout: default
 
 <div class="home">
 
+  <div class="pull-right">
+    {% include categories.html %}
+    {% include tag-cloud.html %}
+  </div>
+
   <h1 class="page-heading">Posts</h1>
 
+  {% if site.posts.size > 0 %}
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,7 +23,9 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
+  {% else %}
+    <p>No posts have been published yet. Check back soon!</p>
+  {% endif %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

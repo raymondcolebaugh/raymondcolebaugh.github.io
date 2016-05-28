@@ -1,0 +1,14 @@
+<div id="categories">
+    <h4>Categories</h4>
+    {% if site.categories.size > 0 %}
+        <ul>
+        {% for category in site.categories %}
+            <li>
+                <a href="/categories/#{{ category | first}}">{{ category | first | capitalize }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No posts categorized yet</p>
+    {% endif %}
+</div>

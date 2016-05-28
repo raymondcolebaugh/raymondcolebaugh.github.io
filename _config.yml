@@ -28,6 +28,8 @@ markdown: kramdown
 collections:
     projects:
         output: true
+tag_page_layout: tag-page
+tag_page_dir: tag
 gems:
     - jekyll-assets
 assets:

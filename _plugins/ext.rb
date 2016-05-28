@@ -1,4 +1,5 @@
 require 'jekyll-assets'
+require 'jekyll/tagging'
 require 'bundler/setup'
 
 Bundler.require(:default, 'development')
