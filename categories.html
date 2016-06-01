@@ -4,7 +4,7 @@ title: Categories
 permalink: /categories/
 ---
 {% if site.categories.size > 0 %}
-    <div class="pull-right">
+    <div id="sidebar">
         {% include categories.html %}
     </div>
     {% for category in site.categories %}
