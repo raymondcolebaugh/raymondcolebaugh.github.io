@@ -32,6 +32,22 @@ hr {
     margin-bottom: 0px;
     min-height: $header_height;
     max-height: $header_height;
+    @include media-query($on-palm) {
+        .site-title {
+            text-align: center;
+        }
+        h2 {
+            font-size: 150%;
+        }
+        ul.nav { margin-left: 0; }
+        .nav-pills > li {
+            margin-top: 16px;
+        }
+    }
+    @include media-query($on-laptop) {
+        h2 { text-align: center; }
+        h2 > small { color: white }
+    }
 }
 
 .page-content {
@@ -39,6 +55,13 @@ hr {
     height: auto !important;
     height: 100%;
     margin: -$header_height auto -$footer_height;
+    @include media-query($on-palm) {
+        font-size: 14pt;
+        padding: 8px;
+    }
+    @include media-query($on-laptop) {
+        padding: 8px;
+    }
 }
 
 .page-footer {
@@ -49,7 +72,7 @@ hr {
     width: 100%;
     min-height: $footer_height;
     max-height: $footer_height;
-    @media (max-width: 980px) {
+    @include media-query(900px) {
         min-height: $footer_height * 2;
         max-height: $footer_height * 2;
     }
