@@ -1,0 +1,7 @@
+{% if page.title and page.url %}
+<p>Share this on</p>
+<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><span class="fa fa-twitter"></span>Twitter</a>
+<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><span class="fa fa-facebook-square"></span>Facebook</a>
+<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><span class="fa fa-google-plus-square"></span>Google+</a>
+<a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit"><span class="fa fa-reddit-square"></span>Reddit</a>
+{% endif %}

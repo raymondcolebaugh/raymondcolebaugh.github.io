@@ -122,3 +122,12 @@ hr {
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
+
+.post-sharing-links {
+    p {
+        font-weight: bold;
+    }
+    a {
+        padding: 1rem;
+    }
+}
