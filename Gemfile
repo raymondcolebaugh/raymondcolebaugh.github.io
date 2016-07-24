@@ -8,6 +8,9 @@ gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+group :jekyll_plugins do
+    gem 'algoliasearch-jekyll'
+end
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
 end

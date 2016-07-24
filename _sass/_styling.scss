@@ -52,9 +52,9 @@ hr {
             margin-top: 16px;
         }
     }
+    h2 > small { color: white }
     @include media-query($on-laptop) {
         h2 { text-align: center; }
-        h2 > small { color: white }
     }
 }
 
@@ -73,7 +73,6 @@ hr {
 }
 
 .page-footer {
-
     padding-top: 0px;
     background-image: url("/assets/hills_footer.png");
     background-size: cover;
@@ -107,20 +106,36 @@ hr {
 #sidebar {
     float: right;
     margin: 2rem;
-}
-
-#categories {
-    text-align: center;
-    ul {
-        text-align: left;
-        list-style: none;
-        margin: 0px;
+    max-width: 164px;
+    @include media-query($on-palm) {
+        font-size: smaller;
+        text-align: center;
+        float: none;
+        max-width: 75%;
     }
-}
 
-#tag-cloud {
-    max-width: 128px;
-    text-align: center;
+    #categories {
+        text-align: center;
+        ul {
+            text-align: left;
+            list-style: none;
+            margin: 0px;
+        }
+    }
+
+    #tag-cloud {
+        text-align: center;
+    }
+
+    #search {
+        margin-top: 12px;
+        text-align: center;
+        img {
+            max-width: 128px;
+            max-height: 32px;
+            margin-top: 6px;
+        }
+    }
 }
 
 #practicing {
@@ -138,4 +153,32 @@ hr {
     a {
         padding: 1rem;
     }
+}
+
+.algolia-autocomplete {
+  width: 100%;
+}
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 100%;
+  text-indent: 6px;
+}
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-top: none;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #B2D7FF;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
 }

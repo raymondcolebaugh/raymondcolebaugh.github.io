@@ -13,3 +13,6 @@ Session.vim
 .netrwhist
 *~
 
+
+# Don't commit algolia api key
+_algolia_api_key
