@@ -1,5 +1,10 @@
+---
+
+---
 User-agent: *
 Disallow: /assets/
 Disallow: /Gemfile
 Disallow: /Gemfile.lock
 Disallow: /Rakefile
+
+Sitemap: {{ site.url }}/sitemap.xml

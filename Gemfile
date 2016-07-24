@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-assets'
 gem 'jekyll-tagging'
+gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
