@@ -10,8 +10,7 @@ title: Raymond Colebaugh
 subtitle: Development, Operations, and Security
 email: raymondcolebaugh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    I am a recent CS graduate with interests in security, automation, IDS, machine learning, crypto,
-    HA, and distributed systems.
+    I am a CS graduate with interests in security, automation, IDS, and machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.colebaugh.com" # the base hostname & protocol for your site
 twitter_username: rcolebaugh

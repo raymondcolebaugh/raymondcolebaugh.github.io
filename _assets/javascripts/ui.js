@@ -24,15 +24,11 @@ function decodePhone(elem) {
  * Set up event handlers on ready
  */
 $(function() {
-    // Decode email addresses on click
-    $(".email-link").click (function(event) {
-        event.preventDefault();
+    // Decode email addresses and phone numbers
+    $(".email-link").each(function(link) {
         decodeEmail( $(this) );
     });
-
-    // Decode phone numbers on click
-    $(".phone-link").click (function(event) {
-        event.preventDefault();
+    $(".phone-link").each(function(link) {
         decodePhone( $(this) );
     });
 

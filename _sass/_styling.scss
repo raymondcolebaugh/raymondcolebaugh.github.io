@@ -3,7 +3,7 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-$header_height: 140px;
+$header_height: 220px;
 $footer_height: 240px;
 
 html, body { height: 100%; }
@@ -32,6 +32,14 @@ hr {
     margin-bottom: 0px;
     min-height: $header_height;
     max-height: $header_height;
+    a.nav-link {
+        color: white;
+    }
+    a:focus.nav-link,a:hover.nav-link {
+        color: white;
+        background-color: lightblue;
+        @extend .transparent;
+    }
     @include media-query($on-palm) {
         .site-title {
             text-align: center;
@@ -92,8 +100,8 @@ hr {
 }
 
 .newsletter {
-    margin-top: 20px;
-    border-radius: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 #sidebar {
