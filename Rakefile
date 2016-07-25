@@ -1,6 +1,5 @@
 # Github pages publishing.
 require "jekyll"
-require "reduce"
 require 'tmpdir'
 
 desc "Publish Github pages site"
