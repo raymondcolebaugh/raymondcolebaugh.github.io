@@ -26,7 +26,7 @@ $ jekyll new .
 After generating the default source, you'll have a directory tree similar to the following:
 
 ```bash
-$ tree 
+$ tree
 .
 ├── about.md
 ├── _config.yml
@@ -94,7 +94,7 @@ Partial fragments of mark(up\|down) can be included from the `_includes` directo
  The `_site` directory contains the rendered site, and should be configured to be ignored by your version control system.
 
 ### Advanced Asset Management
-As you progress, you'll start bringing in external source, CSS frameworks, JavaScript libraries, etc. At this point, it can be beneficial to add more advanced asset handling capabilities. [jekyll-assets](https://github.com/jekyll/jekyll-assets) uses Sprockets to provide asset pipeline functionality. This functionality will be familiar to anyone coming from Ruby on Rails. Besides syncing your vendor sources, jekyll-assets also supports:
+As you progress, you'll start bringing in external sources, CSS frameworks, JavaScript libraries, etc. At this point, it can be beneficial to add more advanced asset handling capabilities. [jekyll-assets](https://github.com/jekyll/jekyll-assets) uses Sprockets to provide asset pipeline functionality. This functionality will be familiar to anyone coming from Ruby on Rails. Besides syncing your vendor sources, jekyll-assets also supports:
 
 * file digesting
 * asset compression
@@ -121,7 +121,7 @@ Whitelist the file types that you intend on serving and specify your asset direc
 
 Unfortunately, we cannot execute dynamic Jekyll plugins like these when hosting on GitHub pages. This reduces the potential for attack on their infrastructure. To get around this limitation, first build your static site. Then, push the results into the root of your master branch. You'll need to then maintain development in another branch, such as "source" or "dev."
 
-To handle pushing your changes, you can create a Rake task to handle pushing your site to GitHub. Create a new file name `Rakefile` and insert something like:
+To handle updates, you can create a Rake task to handle pushing your site to GitHub. Create a new file name `Rakefile` and insert something like:
 
 ```ruby
 # Github pages publishing.
@@ -153,7 +153,7 @@ end
 This enables you to generate and push updates to your live site by executing `rake publish`! See the related link below for more detail on using a method such as this.
 
 ### Conclusion
-Jekyll is awesome, you can go from zero to sixty in no time! Publishing new content is a breeze, too. Just write out your posts in comfort using Markdown, set the post date, and `rake publish`. Keep an eye out and subscribe by email or RSS to learn more in future posts, including:
+Jekyll is awesome; you can go from zero to sixty in no time! Publishing new content is a breeze, too. Just write out your posts in comfort using Markdown, set the post date, and `rake publish`. Keep an eye out and subscribe by email or RSS to learn more in future posts, including:
 
 * Comments with Disqus
 * Tagging and categories

@@ -18,10 +18,10 @@ In earlier releases, some features that felt missing were those relating handlin
 terraform import aws_instance.www1 i-aabbccdd
 ```
 
-The above will instruct Terraform to refresh it's information about the specified resource. In this example, it will load into the state file an aws_instance "www1" with the details from EC2 instance i-aabbccdd.  You can then add the appropriate resource declaration your manifests. This allows you to begin managing that resource without ignoring or destroying it. 
+The above will instruct Terraform to refresh it's information about the specified resource. In this example, it will load into the state file an aws_instance "www1" with the details from EC2 instance i-aabbccdd.  You can then add the appropriate resource declaration to your manifests. This allows you to begin managing that resource without ignoring or destroying it.
 
 ### Safely Modifying Your State File
-ometimes you may find yourself in a position where you need to modify the state file. If you must perform this dangerous operation, be sure to take a backup of your state file. Now we can use the "state" subcommand, a nice CLI wrapper for common state operations. This decreases the chances of the state file becoming corrupt due to something like a formatting error.
+Sometimes you may find yourself in a position where you need to modify the state file. If you must perform this dangerous operation manually, be sure to take a backup of your state file. Now we can use the "state" subcommand, a nice CLI wrapper for common state operations. This decreases the chances of the state file becoming corrupt due to something like a formatting error.
 
 As an example, assume that we have existing resources as described by the following Terraform manifest:
 
