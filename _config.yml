@@ -19,8 +19,9 @@ bitbucket_username:  raymondcolebaugh
 linkedin_username: raymondcolebaugh
 bitcoin_address: 1Dn2JSjGt1XGPQRq698JqHzzV1cSEK8HYf
 practicing:
-    - More Algorithms
-    - Node.js and Backbone.js
+    - Cloud Architecture and Automation
+    - Reverse Engineering
+    - Web Marketing
 
 # Build settings
 markdown: kramdown
