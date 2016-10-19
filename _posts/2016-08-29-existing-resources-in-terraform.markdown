@@ -2,7 +2,7 @@
 layout: post
 title:  "Modifying Existing Resources in Terraform"
 date:   2016-08-27 18:49:48 -0701
-category: terraform
+category: devops
 tags: terraform devops
 comments: true
 published: true

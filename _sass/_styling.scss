@@ -63,8 +63,14 @@ hr {
     height: auto !important;
     height: 100%;
     margin: -$header_height auto -$footer_height;
-    @include media-query($on-palm) {
+    p {
         font-size: 14pt;
+        text-align: justify;
+    }
+    @include media-query($on-palm) {
+        p {
+            font-size: 16pt;
+        }
         padding: 8px;
     }
     @include media-query($on-laptop) {
@@ -107,6 +113,9 @@ hr {
 .newsletter {
     margin-top: 10px;
     border-radius: 10px;
+    p {
+        text-align: center;
+    }
 }
 
 #sidebar {
@@ -153,11 +162,9 @@ hr {
 }
 
 .post-sharing-links {
-    p {
-        font-weight: bold;
-    }
     a {
         padding: 1rem;
+        font-weight: bold;
     }
 }
 
