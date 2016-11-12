@@ -5,6 +5,7 @@ date:   2016-05-31 15:16:23 -0700
 category: security
 tags: security
 comments: true
+cta: Need tips like this to lock down your box? Subscribe here for more!
 ---
 
 A **bastion host**, also known as a **jumpbox**, is a machine whose sole purpose is to provide a secure entryway to your private network. This allows you to restrict network access to your internal services to only the bastion host, rejecting or dropping packets which do not originate from the bastion host. Not only does this allow you to reduce your visible attack surface, it also allows you to better allocate resources to securing your network, as you can put more effort into securing or auditing the jumpbox. This machine acts as a choke point, maintaining record of internal network access and providing a single machine to revoke access from in the event of compromise. Now you can go crazy with all the security tools and techniques you like without dealing with as large of a hassle! Set a non-standard SSH port, lock down that port with fwknop, use a OTP with Google authenticator, and more!

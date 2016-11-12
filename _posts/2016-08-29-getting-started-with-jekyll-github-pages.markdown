@@ -6,6 +6,7 @@ category: jekyll
 tags: jekyll
 comments: true
 published: true
+cta: Sign up for the newsletter here to learn more about open source web development!
 ---
 
 Are you are creating your personal site, but don’t want to commit to purchasing a new host to serve it from? Not to worry: GitHub has your back! Using [GitHub Pages](https://pages.github.com/), you can host your static site for free! This is a great alternative to a shared web host, allowing you to deploy your site with a mere git push. This makes it perfect for open source projects or startups on a lean budget. But what can I do with a static site?! GitHub supports Jekyll, giving your static site the flexibility a “dynamic” site might have.
