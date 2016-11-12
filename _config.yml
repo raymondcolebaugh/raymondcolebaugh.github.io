@@ -32,7 +32,9 @@ tag_page_layout: tag-page
 tag_page_dir: tag
 gems:
     - jekyll-assets
+    - jekyll-paginate
     - algoliasearch-jekyll
+paginate: 5
 assets:
     assets:
     - "*.js"
