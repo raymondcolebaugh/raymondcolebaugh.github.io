@@ -41,6 +41,11 @@ permalink: /about/
     <div class="github-card" data-user="{{ site.github_username }}"></div>
 </div>
 
+<div class="cta-buttons">
+    <span class="btn btn-success"><a href="#" data-toggle="modal" data-target="#contact-modal">Contact</a></span>
+    <span class="btn btn-info"><a href="#" data-toggle="modal" data-target="#hireme-modal">Hire Me</a></span>
+</div>
+
 <div class="row">
 <h2>Work Experience</h2>
 {% for employer in site.data.employers %}
@@ -73,7 +78,24 @@ permalink: /about/
       </div><!-- .modal-footer -->
     </div><!-- .modal-content -->
   </div><!-- .modal-dialog -->
-</div><!-- #key-modal -->
+</div><!-- #hireme-modal -->
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="hireme-modal-label">Contact</h4>
+      </div><!-- .modal-header -->
+      <div class="modal-body text-center">
+          {% include contactform.html %}
+      </div><!-- .modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div><!-- .modal-footer -->
+    </div><!-- .modal-content -->
+  </div><!-- .modal-dialog -->
+</div><!-- #contact-modal -->
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <script>
