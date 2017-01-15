@@ -1,5 +1,8 @@
 #/bin/bash
-
 IGNORE_URLS='https://linkedin.com/in/raymondcolebaugh,https://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html'
 OPTIONS="--empty-alt-ignore --allow-hash-href --check-opengraph --check-html --enforce-https --url-ignore ${IGNORE_URLS}"
-htmlproofer $OPTIONS _site
+
+set -e
+
+bundle exec jekyll build
+bundle exec htmlproofer $OPTIONS _site
