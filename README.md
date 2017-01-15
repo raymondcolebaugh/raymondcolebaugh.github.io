@@ -1,5 +1,5 @@
 # colebaugh.com
-Welcome to the source repo for my personal site, [www.colebaugh.com](https://www.colebaugh.com/?pk_source=github&pk_campaign=readme)].
+Welcome to the source repo for my personal site, [www.colebaugh.com](https://www.colebaugh.com/?pk_source=github&pk_campaign=readme).
 The site is written in [Jekyll](https://jekyllrb.com) and hosted using [GitHub Pages](https://pages.github.com/). Since GitHub Pages
 runs Jekyll with plugins disabled, I've opted to render locally. Development is performed in the src branch, then the result is pushed
 to the master branch. For more detail on the configuration and usage of a site like this, please see my post
