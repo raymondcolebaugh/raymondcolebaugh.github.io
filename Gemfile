@@ -8,6 +8,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'html-proofer'
 
 group :jekyll_plugins do
     gem 'algoliasearch-jekyll'

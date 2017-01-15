@@ -33,5 +33,5 @@ If you'll be using multiplexing with a bastion host, be sure to test your config
 With these few tweaks to your configuration, you'll enjoy the improved responsiveness in your SSH workflow. Not only does this reduce waiting time, it will also save you valuable overhead when you're on a poor WAN link. OpenSSH truly is the sysadmin's Swiss army knife, versatile for any networking situation. Subscribe to my mailing list and connect with me on Twitter to stay up to date! Need more SSH and Linux security tips? Please leave any questions you have in the comments below!
 
 ## Additional References
-* [Using SSH Multiplexing](http://blog.scottlowe.org/2015/12/11/using-ssh-multiplexing/)
+* [Using SSH Multiplexing](https://blog.scottlowe.org/2015/12/11/using-ssh-multiplexing/)
 * [ssh_config(5)](https://linux.die.net/man/5/ssh_config)

@@ -53,3 +53,7 @@ algolia:
   index_name:     'colebaugh.com'
   excluded_files:
     - index.html
+exclude:
+  - Rakefile
+  - script
+  - vendor

@@ -165,4 +165,4 @@ Anything else you might need? Leave questions or feedback in the comments below!
 
 ### Related Information
 * [GitHub Pages Docs](https://help.github.com/categories/github-pages-basics/)
-* [Using Jekyll plugins on GitHub Pages](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html)
+* [Using Jekyll plugins on GitHub Pages](https://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html)
