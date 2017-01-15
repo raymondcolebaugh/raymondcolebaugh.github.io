@@ -7,7 +7,9 @@ script: ./script/cibuild
 
 branches:
   only:
-      - src
+    - src
+  except:
+    - master
 
 env:
     global:
