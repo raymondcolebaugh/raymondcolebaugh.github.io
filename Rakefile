@@ -3,7 +3,7 @@ require "jekyll"
 require 'tmpdir'
 
 desc "Publish Github pages site"
-task :publish do
+task :publish => :test do
     # Compile the Jekyll site using the config.
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
