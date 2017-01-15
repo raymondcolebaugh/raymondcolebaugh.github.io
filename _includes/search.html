@@ -3,7 +3,7 @@
         <input type="text" id="search-input" placeholder="Search..." />
         <div class="input-group-addon"><i class="fa fa-search"></i></div>
     </div>
-    <noscript>Enable JavaScript to search with</noscript>
+    <noscript>Enable JavaScript to use search suggestions with Algolia</noscript>
     {% image Algolia_logo_bg-white.jpg alt:'Powered by Algolia' %}
 </div>
 
@@ -28,6 +28,7 @@ $(function() {
             }
     ]).on('autocomplete:selected', function(event, suggestion, dataset) {
         console.log(suggestion, dataset);
+        _paq.push(['trackSiteSearch', $("#search-input").val(), false, false]);
         window.location.href = suggestion.url;
     });
 });
