@@ -55,5 +55,6 @@ algolia:
     - index.html
 exclude:
   - Rakefile
+  - README.md
   - script
   - vendor
