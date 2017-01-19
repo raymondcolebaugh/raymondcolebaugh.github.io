@@ -5,6 +5,7 @@ date:   2016-05-31 4:12:00 -0700
 category: security
 tags: security pgp
 comments: true
+skip_readingtime: true
 ---
 
 I am transitioning GPG keys from my previous 2048-bit RSA key to a new
