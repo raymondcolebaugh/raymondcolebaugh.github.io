@@ -81,9 +81,6 @@ hr {
     @include media-query($on-laptop) {
         padding: 8px;
     }
-    .rss-subscribe {
-        font-weight: bold;
-    }
     .github-card-container {
         text-align: center;
     }
@@ -92,6 +89,34 @@ hr {
         a {
             color: white;
         }
+    }
+    .jumbotron ul {
+        text-align: left;
+    }
+    .jumbotron p {
+        padding: 1rem;
+    }
+    #next-prev {
+        min-height: 4rem;
+        @include media-query($on-laptop) {
+            height: 8rem;
+        }
+    }
+    .post-sharing-links {
+        font-size: larger;
+        a {
+            padding: 1rem;
+            font-weight: bold;
+        }
+    }
+    a.why {
+        color: gray;
+    }
+    ul.large-social-media {
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        list-style: none;
     }
 }
 
@@ -149,6 +174,13 @@ hr {
         }
     }
 
+    #recent {
+        text-align: center;
+        li {
+            text-align: left;
+        }
+    }
+
     #tag-cloud {
         text-align: center;
     }
@@ -170,13 +202,6 @@ hr {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-}
-
-.post-sharing-links {
-    a {
-        padding: 1rem;
-        font-weight: bold;
-    }
 }
 
 .algolia-autocomplete {

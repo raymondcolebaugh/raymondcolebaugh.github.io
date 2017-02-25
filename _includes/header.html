@@ -18,6 +18,8 @@
         {% for my_page in site.pages %}
           {% if my_page.title == "Categories" %}
             {% continue %}
+          {% elsif my_page.title == "Subscribe" %}
+            {% continue %}
           {% endif %}
           {% if my_page.title %}
           <li><a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>

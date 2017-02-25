@@ -1,0 +1,48 @@
+---
+layout: page
+title: Subscribe
+permalink: /subscribe/
+---
+
+<div class="row">
+    <div class="jumbotron text-center">
+        <div class="col-md-8">
+            <h3>What You Will Get</h3>
+            <ul>
+                <li>Bonus content to supplement your favorite articles</li>
+                <li>Exclusive offers for additional tools and materials</li>
+                <li>Notifications when the latest articles are released</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            {% image avatar.png %}
+        </div>
+
+        <div>
+            <p>
+                Don't worry, your contact info is safe with me! This data goes to my
+                private server and is not shared with anyone. This is a low volume
+                mailing list, so expect no more than two emails in a week. You'll
+                be free to unsubscribe effortlessly at any time.
+            </p>
+        </div>
+
+        <iframe name="web-form-iframe" src="https://crm.colebaugh.com/index.php/contacts/contacts/weblead?iframeHeight=185&webFormId=18&css=redirectUrl=" frameborder="0" allowtransparency="true" scrolling="0" width="320" height="185"></iframe>
+
+        <ul class="large-social-media">
+          <li>Connect with me on social media to keep in touch!</li>
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+    </div>
+</div>
+

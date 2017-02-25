@@ -23,9 +23,9 @@
           </li>
           {% endif %}
 
-          {% if site.bitbucket_username %}
+          {% if site.linkedin_username %}
           <li>
-            {% include icon-bitbucket.html username=site.bitbucket_username %}
+            {% include icon-linkedin.html username=site.linkedin_username %}
           </li>
           {% endif %}
 
@@ -35,9 +35,15 @@
           </li>
           {% endif %}
 
-          {% if site.linkedin_username %}
+          {% if site.stackexchange_username %}
           <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
+            {% include icon-stackexchange.html username=site.stackexchange_username userid=site.stackexchange_id %}
+          </li>
+          {% endif %}
+
+          {% if site.bitbucket_username %}
+          <li>
+            {% include icon-bitbucket.html username=site.bitbucket_username %}
           </li>
           {% endif %}
         </ul>
@@ -89,6 +95,9 @@
              data-address="{{ site.bitcoin_address }}" data-shared="false">
             <div class="blockchain stage-begin">
                 <img src="https://blockchain.info/Resources/buttons/donate_64.png" alt="Donate"/>
+                <p>
+                If you like what I'm working on or learned something cool, you can buy me a coffee or a beer by sending tips to the bitcoin address: <b><a href="bitcoin:{{ site.bitcoin_address }}">{{ site.bitcoin_address }}</a></b>
+                </p>
             </div>
             <div class="blockchain stage-loading" style="text-align:center">
                 <img src="https://blockchain.info/Resources/loading-large.gif" alt="loading"/>
