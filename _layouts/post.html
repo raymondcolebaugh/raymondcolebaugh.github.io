@@ -15,6 +15,14 @@ layout: default
     </div>
   </header>
 
+  {% if page.image %}
+  <div class="post-image">
+      <img src="{% asset_path {{page.image}} %}" alt="{{ page.title }}">
+
+      <br /><br />
+  </div>
+  {% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
