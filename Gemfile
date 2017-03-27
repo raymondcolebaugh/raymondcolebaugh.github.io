@@ -9,6 +9,8 @@ gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'html-proofer'
+gem 'sass'
+gem 'uglifier'
 
 group :jekyll_plugins do
     gem 'algoliasearch-jekyll'
