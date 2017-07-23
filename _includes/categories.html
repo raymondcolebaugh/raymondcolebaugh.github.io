@@ -4,7 +4,7 @@
         <ul>
         {% for category in site.categories %}
             <li>
-                <a href="/categories/#{{ category | first}}">{{ category | first | capitalize }}</a>
+                <a href="/categories/#{{ category | first}}">{{ category | first | capitalize }} ({{ category[1].size }})</a>
             </li>
         {% endfor %}
         </ul>
