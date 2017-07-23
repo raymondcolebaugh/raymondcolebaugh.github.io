@@ -63,6 +63,12 @@ hr {
     }
 }
 
+#twitter-timeline {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .page-content {
     min-height: 100%;
     height: auto !important;
@@ -169,7 +175,7 @@ hr {
 #sidebar {
     float: right;
     margin: 2rem;
-    max-width: 164px;
+    max-width: 200px;
     @include media-query($on-palm) {
         font-size: smaller;
         text-align: center;
