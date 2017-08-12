@@ -2,7 +2,8 @@
     <h4>Categories</h4>
     {% if site.categories.size > 0 %}
         <ul>
-        {% for category in site.categories %}
+        {% assign categories = (site.categories | sort: 0) %}
+        {% for category in categories %}
             <li>
                 <a href="/categories/#{{ category | first}}">{{ category | first | capitalize }} ({{ category[1].size }})</a>
             </li>
