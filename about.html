@@ -19,8 +19,8 @@ permalink: /about/
 
 <div class="row">
     <p>
-    I am a UC Santa Cruz computer science graduate who is interested in studying
-    security, intrusion detection, machine learning, cryptography, and distributed, scalable systems.
+    I am a UC Santa Cruz computer science graduate who is interested in security, privacy,
+    intrusion detection, machine learning, cryptography, and distributed, scalable systems.
     I enjoy developing software and building websites with Ruby, PHP, C/C++, Python,
     Javascript, and Go, while automating tasks with bash and Puppet and operating
     Debian/Ubuntu/CentOS servers on Cisco and Linux networks. I write my code in vim configured like
@@ -31,23 +31,19 @@ permalink: /about/
     <p>
     I love free, libre, open source software! I'm especially interested in contributing to automation, security, and privacy software. If you are contributing to an open source project you believe I'd be able to assist, please feel free to contact me with more details.
     </p>
-
-    <p>
-    You can <strong><a href="#" data-toggle="modal" data-target="#hireme-modal">hire me</a></strong> for contract work, or send me an email at <a href="#" class="email-link" data-email="cmF5bW9uZGNvbGViYXVnaEBnbWFpbC5jb20">[email hidden]</a>. Please include a detailed description of the requirements so that I can begin to scope out the project and provide an estimate. You can find my PGP key in the footer below if you'd like to protect sensitive details.
-    </p>
-</div>
-
-<div class="github-card-container">
-    <div class="github-card" data-user="{{ site.github_username }}"></div>
 </div>
 
 <div class="cta-buttons">
     <span class="btn btn-success"><a href="#" data-toggle="modal" data-target="#contact-modal">Contact</a></span>
-    <span class="btn btn-info"><a href="#" data-toggle="modal" data-target="#hireme-modal">Hire Me</a></span>
 </div>
 
 <div class="row">
 <h2>Work Experience</h2>
+
+<blockquote>
+Views and thoughts expressed on this site are not endorsed by and do not reflect the opinions of any of my past, present, or future employers.
+</blockquote>
+
 {% for employer in site.data.employers %}
 <h3 class="page-header">
     {{ employer.name }}
@@ -62,23 +58,6 @@ permalink: /about/
 </div>
 
 {% include newsletter.html %}
-
-<div class="modal fade" id="hireme-modal" tabindex="-1" role="dialog" aria-labelledby="hireme-modal-label">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="hireme-modal-label">Hire Me</h4>
-      </div><!-- .modal-header -->
-      <div class="modal-body text-center">
-        <iframe name="web-form-iframe" src="https://crm.colebaugh.com/index.php/services/services/webForm?iframeHeight=385&webFormId=7&css=select%20%7B%0A%20%20width%3A%20100%25%3B%0A%7D" frameborder="0" allowtransparency="true" scrolling="0" width="300" height="500"></iframe>
-      </div><!-- .modal-body -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div><!-- .modal-footer -->
-    </div><!-- .modal-content -->
-  </div><!-- .modal-dialog -->
-</div><!-- #hireme-modal -->
 
 <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label">
   <div class="modal-dialog" role="document">
@@ -96,13 +75,3 @@ permalink: /about/
     </div><!-- .modal-content -->
   </div><!-- .modal-dialog -->
 </div><!-- #contact-modal -->
-
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-<script>
-// Block externally loaded Google Analytics ;)
-window['ga-disable-UA-21475122-2'] = true;
-$(function() {
-    if (typeof window['ga-disable-UA-21475122-2'] == 'undefined' || !window['ga-disable-UA-21475122-2'])
-        window['ga-disable-UA-21475122-2'] = true;
-});
-</script>
