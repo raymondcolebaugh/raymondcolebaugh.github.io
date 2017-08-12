@@ -1,6 +1,6 @@
 - name: X2Engine, Inc.
   title: Senior Software Engineer
-  dates: December 2013 - Present
+  dates: December 2013 - July 2017
   desc:
             At X2Engine I have been learning to use the Yii Framework to contribute to development
             on a large PHP codebase for an extremely dynamic app, rich with customization. In this
@@ -11,12 +11,6 @@
             browser fingerprinting capabilities. Recently, I have created the backend for an
             IMAP client, an IP access control list, and a packaging system to import and export
             snapshots of customizations.
-
-- name: Private Contractor
-  title: Software/Systems Engineer
-  dates: November 2013 - Present
-  desc:
-      Outside of working at my $DAYJOB, I enjoy helping others with a wide variety of technology related projects. This has included work ranging from web development to systems configuration, to authoring and reviewing technical assessment questions, and instructing others on intrusion detection. If you'd like some assistance on one of your projects, please feel free to contact me with your request.
 
 - name: BareMetal Networks
   title: Software Developer / Sysadmin Intern

@@ -21,9 +21,9 @@ stackexchange_username: raymondcolebaugh
 stackexchange_id: 3759451
 bitcoin_address: 1Dn2JSjGt1XGPQRq698JqHzzV1cSEK8HYf
 practicing:
-    - Cloud Architecture and Automation
+    - High Scalability
     - Reverse Engineering
-    - Web Marketing
+    - Network Forensics
 
 # Build settings
 markdown: kramdown
