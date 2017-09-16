@@ -25,15 +25,15 @@ Syncthing's list of features will be very familiar to users already on Dropbox. 
 
 
 ## Installation
-On Windows and OS X, you'll want to download and execute the installer from the Syncthing site. On Android devices, the app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid).
+On Windows and OS X, you'll want to download and execute the installer from the Syncthing site. On Android devices, the app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid) store.
 
-Finally, on Linux, you can compile from source, or use apt on Debian or Ubuntu. This is preferable so you'll be able to update Syncthing with the rest of your system packages. First, install their release PGP key and add their repo information to apt. Then update your package lists and install the syncthing package.
+Finally, on Linux, you can compile from source, or use apt on Debian or Ubuntu. This is preferable so you'll be able to update Syncthing with the rest of your system packages. First, install their release PGP key and add their repo information to apt. Then update your package lists and install the syncthing package. It's also a good idea to install the syncthing-inotify package to more efficiently watch the sync directories for file changes.
 
 ```bash
 curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
 echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
 sudo apt-get update
-sudo apt-get install syncthing
+sudo apt-get install syncthing syncthing-inotify
 ```
 
 ## Using Syncthing
