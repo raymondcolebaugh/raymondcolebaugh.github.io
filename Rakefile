@@ -24,7 +24,13 @@ task :publish => :test do
     end
 end
 
+desc "Execute unit tests"
 task :test do
   sh "bundle exec jekyll build"
   sh "./script/cibuild"
+end
+
+desc "Clean rendered site and asset cache"
+task :clean do
+  sh "ls -d .asset-cache _site && rm -rf .asset-cache _site"
 end
