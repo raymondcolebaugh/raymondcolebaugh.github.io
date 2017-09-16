@@ -69,9 +69,10 @@
       </div><!-- .modal-header -->
       <div class="modal-body">
           Current PGP Key
-<pre>{% asset RaymondColebaugh.asc %}</pre>
+<textarea class="pgp-key-full">{% asset RaymondColebaugh.asc %}</textarea>
           <ul>
-              <li><a href="{% asset_path raymond_colebaugh_oldkey.asc %}">Previous Key</a></li>
+              <li><a href="{% asset_path RaymondColebaugh_second.asc %}">Second Key</a></li>
+              <li><a href="{% asset_path RaymondColebaugh_first.asc %}">First Key</a></li>
               <li><a href="{% post_url 2016-05-31-pgp-key-transitioning-statement %}">Key Transitioning Statement</a></li>
           </ul>
       </div><!-- .modal-body -->

@@ -34,5 +34,9 @@ $(function() {
 
     // Remove href attribute when JS is enabled for proper modal initialization
     $(".key-link").attr ('href', '#');
+
+    $(".pgp-key-full").click(function() {
+        $(this).focus().select();
+    });
 });
 
