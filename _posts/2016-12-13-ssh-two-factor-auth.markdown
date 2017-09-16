@@ -10,6 +10,8 @@ cta: Love security? Subscribe here for more!
 
 In today's ever-expanding threat to our information systems, we need every defensive measure we can get. To employ a defense-in-depth strategy, it is beneficial to require a second authentication factor. This is usually performed by sending a random string via SMS, but this is no longer good enough. Attackers may coerce your mobile provider into handing over control of your number, granting them access to your codes. The preferred method is with a one time pad generated from the current time and random seed value. This is known as Time-based One Time Pad (TOTP). If you'd like to lock down your Linux box, 2FA is a great way to do so. Even with public key authentication (don't even consider password authentication on an-internet exposed machine).
 
+{% include toc.markdown %}
+
 ## Set Up
 First you'll need the software to generate authentication codes on your mobile device. You can use an app like the Google Authenticator to do so. This app allows you to use a QR code to import your seed value, making setup simple and quick. You can get the app for both [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) and [iOS](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8). You could instead use Red Hat's [FreeOTP](https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp).
 

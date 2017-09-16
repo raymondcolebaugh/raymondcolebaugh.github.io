@@ -10,6 +10,8 @@ cta: Love DevOps? Subscribe here to keep up to date on the coolest new tools and
 
 Even if you haven't used Vagrant, I'm sure you've still heard about it. Vagrant is one of the most popular Hashicorp products. It provides an abstraction over virtualization software, using VirtualBox by default. Vagrant creates your development machines by cloning base boxes. You can download these from the public repository or import one from a local file. You can also package and publish your own base boxes. Vagrant can provision your boxes, either on first boot or on demand.  I love this tool, and use it with Puppet for a ton of my development, I can't recommend it enough.
 
+{% include toc.markdown %}
+
 ## Installation
 Many distros have an outdated version in their repos, so it is best to download the latest version. Download the appropriate package for your operating system on the [Vagrant downloads](https://www.vagrantup.com/downloads.html) page. Be sure to verify the checksums and their GPG signature!
 

@@ -13,6 +13,8 @@ Are you are creating your personal site, but don’t want to commit to purchasin
 
 [Jekyll](https://jekyllrb.com/) is a Ruby gem that allows you to write your static website in a collection of modular pieces. It has support for SCSS and Markdown, making it a popular choice among hackers. Jekyll even comes prepared to organize content into a blog by default! Running `jekyll build` renders the source into static sources under `_site`. You can also use Webrick to serve your application by running `jekyll serve`.
 
+{% include toc.markdown %}
+
 ### Creating Your First Application
 First, create a new repository on GitHub named _username_.github.io and check it out. Then, install the Jekyll gem and create your initial application using the command `jekyll app ./path`.
 

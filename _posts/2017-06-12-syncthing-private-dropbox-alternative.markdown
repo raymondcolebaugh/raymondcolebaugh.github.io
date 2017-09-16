@@ -10,6 +10,8 @@ cta: Love the power of open source? Get guides for the coolest new tooling sent 
 
 In light of past events, some Dropbox users are questioning whether it's worth it to trust them with any of their data. If Condoleezza Rice being on board wasn't a big enough hit to privacy, a 2012 data breach finally surfaced, promoting many users to reset their passwords. Then, some users reported Dropbox on OS X using a password prompt similar to that in the OS to reconfigure. Needless to say, if you placed any trust in Dropbox before, it may be time to reconsider. This doesn't only apply to Dropbox though: you can switch from ANY hosted cloud provider to Syncthing!
 
+{% include toc.markdown %}
+
 ## What is Syncthing?
 [Syncthing](https://syncthing.net/) is a file synchronization tool which duplicates your files across all of your configured machines. Similar in concept to btsync, Syncthing keeps your files in sync by propagating the changes you make to the other nodes. All data passed between nodes is encrypted in transit. Unlike Dropbox and other file sync tools, Syncthing is peer to peer and is not dependant on a central service. You can however use a central server to dynamically connect your nodes. If you'd prefer to disable this, you can configure static addresses for your Syncthing nodes using their hostname or IP address. Local discovery is available as well for traffic between the nodes within your LAN, and functions through use of a broadcast. You can also use other Syncthing peers as relays. Since all of the data passed us encrypted, the third party relays cannot intercept any of your content.
 

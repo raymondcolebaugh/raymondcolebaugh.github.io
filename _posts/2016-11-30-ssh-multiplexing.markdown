@@ -10,6 +10,8 @@ cta: Was this tip helpful for your remote server workflow? Subscribe below to ge
 
 SSH multiplexing is the ability to combine multiple SSH sessions over one TCP connection. Instead of opening a new TCP stream for each new SSH connection, it uses the existing socket. Then, each session after that passes over the socket instead of opening a new connection. This is not only faster, but reduces the number of open TCP streams from your host!
 
+{% include toc.markdown %}
+
 ## Use Cases
 SSH multiplexing can save both time and connection overhead. After opening your first session, it creates a socket to pass subsequent connections. This is great if you regularly open multiple terminal sessions to your server. Similarly, when using SSHFS, you'll mount your remote directories much more quickly. If you're using a bastion host, this will help when connecting to the hosts in your private subnet. It's also convenient when using [SSH two factor authentication]({% post_url 2016-12-13-ssh-two-factor-auth %}). On your initial connection you're required to enter the confirmation code. Any operations afterwards are already authenticated, such as an `scp`. In combination with a [bastion host]({% post_url 2016-05-31-using-an-ssh-bastion-host %}) the benefits are even greater. SSH tunnels will also pass over this existing socket. X11 and ssh-agent forwarding also work with multiplexing, with one caveat: the forwarded agent will be the first one used. It cannot be overwritten in following connections.
 
