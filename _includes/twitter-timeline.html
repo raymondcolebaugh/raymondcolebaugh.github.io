@@ -16,13 +16,6 @@ window.twttr = (function(d, s, id) {
 
     return t;
 }(document, "script", "twitter-wjs"));
-
-$(function() {
-    twttr.widgets.createTimeline({
-        sourceType: "profile",
-        screenName: "{{ include.username }}"
-    }, $(".twitter-timeline"));
-});
 </script>
 <div id="twitter-timeline">
     <a href="https://twitter.com/{{ include.username }}" class="twitter-timeline"
