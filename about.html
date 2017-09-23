@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 <div class="row">
-    <div class="col-md-6">
-        {% image avatar.png %}
+    <div class="avatar col-md-6">
+        {% image colebaughdotcom_profile_circular.png %}
     </div>
     <div id="practicing" class="col-md-6">
         Currently I'm practicing:
         <ul>
-            {%  for activity in site.practicing %}
+            {% for activity in site.practicing %}
             <li>{{ activity }}</li>
             {% endfor %}
         </ul>
@@ -64,7 +64,7 @@ Views and thoughts expressed on this site are not endorsed by and do not reflect
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="contact-modal-label">Contact</h4>
+        <h4 class="modal-title" id="contact-modal-label">Contact Info</h4>
       </div><!-- .modal-header -->
       <div class="modal-body text-center">
           {% include contactform.html %}

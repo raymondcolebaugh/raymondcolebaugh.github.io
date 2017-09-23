@@ -3,8 +3,8 @@
 @import 'font-awesome-sprockets';
 @import '_font-awesome';
 
-$header_height: 220px;
-$footer_height: 240px;
+$header_height: 300px;
+$footer_height: 300px;
 
 html, body { height: 100%; }
 
@@ -12,6 +12,12 @@ html, body { height: 100%; }
    zoom: 1;
    filter: alpha(opacity=90);
    opacity: 0.9;
+}
+
+.transparent-light {
+   zoom: 1;
+   filter: alpha(opacity=65);
+   opacity: 0.65;
 }
 
 hr {
@@ -26,15 +32,21 @@ hr {
 }
 
 #header {
-    background-image: url(asset_path("hills_header.jpg"));
+    background-image: url(asset_path("colebaughdotcom-header.jpg"));
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
     min-height: $header_height;
     max-height: $header_height;
+    .header-foot {
+        position: absolute;
+        top: $header_height - 92;
+    }
     a.nav-link {
-        color: olive;
+        color: black;
         font-weight: bold;
+        background-color: white;
+        @extend .transparent-light;
     }
     a:focus.nav-link,a:hover.nav-link {
         color: white;
@@ -50,15 +62,26 @@ hr {
         }
         ul.nav { margin-left: 0; }
         .nav-pills > li {
+            text-align: center;
             margin-top: 16px;
         }
     }
-    h2 > small { color: olive }
+    h2 > small {
+        color: white;
+        font-weight: bold;
+    }
     @include media-query($on-laptop + 190) {
+        .header-foot {
+            top: $header_height - 125;
+        }
         h2 { text-align: center; }
         a.nav-link {
-            color: white;
             font-weight: bold;
+        }
+    }
+    @include media-query($on-palm + 190) {
+        .header-foot {
+            top: $header_height - 136;
         }
     }
 }
@@ -78,9 +101,24 @@ hr {
         font-size: 14pt;
         text-align: justify;
     }
+    table {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        td {
+            padding: 4px;
+        }
+        th {
+            border-bottom-color: black;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+        tr:nth-child(2n) {
+            background-color: #f0f0ff;
+        }
+    }
     @include media-query($on-palm) {
         p {
-            font-size: 16pt;
+            font-size: 15pt;
         }
         padding: 8px;
     }
@@ -99,6 +137,18 @@ hr {
             max-width: 780px;
         }
     }
+    .avatar {
+        img {
+            height: auto;
+            width: 80%;
+            @include media-query($on-laptop + 190) {
+                width: 45%;
+            }
+        }
+        @include media-query($on-laptop + 190) {
+            text-align: center;
+        }
+    }
     .github-card-container {
         text-align: center;
     }
@@ -114,10 +164,19 @@ hr {
     .jumbotron p {
         padding: 1rem;
     }
+    #markdown-toc {
+        padding-bottom: 2rem;
+        li {
+            list-style: none;
+        }
+    }
     #next-prev {
         min-height: 4rem;
         @include media-query($on-laptop) {
             height: 8rem;
+        }
+        @include media-query($on-palm) {
+            padding-top: 2rem;
         }
     }
     .post-sharing-links {
@@ -125,6 +184,10 @@ hr {
         a {
             padding: 1rem;
             font-weight: bold;
+            @include media-query($on-palm) {
+                height: 1rem;
+                display: block;
+            }
         }
     }
     a.why {
@@ -140,12 +203,16 @@ hr {
 
 .page-footer {
     padding-top: 0px;
-    background-image: url(asset_path("hills_footer.jpg"));
+    background-image: url(asset_path("colebaughdotcom-footer.jpg"));
     background-size: cover;
     width: 100%;
     min-height: $footer_height;
     max-height: $footer_height;
-    @include media-query(900px) {
+    @include media-query(1064px) {
+        min-height: $footer_height * 1.5;
+        max-height: $footer_height * 1.5;
+    }
+    @include media-query($on-palm) {
         min-height: $footer_height * 2;
         max-height: $footer_height * 2;
     }
