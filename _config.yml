@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.colebaugh.com" # the base hostname & protocol for your site
 twitter_username: rcolebaugh
+facebook_username: rcolebaugh
 github_username:  raymondcolebaugh
 bitbucket_username:  raymondcolebaugh
 linkedin_username: raymondcolebaugh

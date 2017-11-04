@@ -33,28 +33,15 @@ permalink: /about/
     </p>
 </div>
 
-<div class="cta-buttons">
-    <span class="btn btn-success"><a href="#" data-toggle="modal" data-target="#contact-modal">Contact</a></span>
+<div class="row">
+    <blockquote>
+        Views and thoughts expressed on this site are not endorsed by and do not reflect the
+        opinions of any of my past, present, or future employers.
+    </blockquote>
 </div>
 
-<div class="row">
-<h2>Work Experience</h2>
-
-<blockquote>
-Views and thoughts expressed on this site are not endorsed by and do not reflect the opinions of any of my past, present, or future employers.
-</blockquote>
-
-{% for employer in site.data.employers %}
-<h3 class="page-header">
-    {{ employer.name }}
-    <small>
-        <div>{{ employer.title }}</div>
-        <div>{{ employer.dates }}</div>
-    </small>
-</h3>
-
-<p>{{ employer.desc }}</p>
-{% endfor %}
+<div class="cta-buttons">
+    <a href="#" data-toggle="modal" data-target="#contact-modal"><span class="btn btn-success">Contact</span></a>
 </div>
 
 {% include newsletter.html %}

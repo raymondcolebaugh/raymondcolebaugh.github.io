@@ -9,7 +9,6 @@
           <li>{{ site.title }}</li>
           <li>{{ site.subtitle }}</li>
           <li><a><i class="fa fa-envelope"></i></a><a class="email-link" data-email="cmF5bW9uZGNvbGViYXVnaEBnbWFpbC5jb20">[email hidden]</a></li>
-          <li><a href="{% asset_path Raymond_Colebaugh-resume.pdf %}"><i class="fa fa-file-pdf-o"></i>Resum&eacute;</a></li>
           <li><a href="{% asset_path RaymondColebaugh.asc %}" data-toggle="modal" data-target="#key-modal" class="key-link"><i class="fa fa-key"></i>PGP Key</a></li>
         </ul>
       </div>
@@ -22,27 +21,21 @@
           </li>
           {% endif %}
 
-          {% if site.linkedin_username %}
-          <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
-          </li>
-          {% endif %}
-
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
 
-          {% if site.stackexchange_username %}
+          {% if site.facebook_username %}
           <li>
-            {% include icon-stackexchange.html username=site.stackexchange_username userid=site.stackexchange_id %}
+            {% include icon-facebook.html username=site.facebook_username %}
           </li>
           {% endif %}
 
-          {% if site.bitbucket_username %}
+          {% if site.linkedin_username %}
           <li>
-            {% include icon-bitbucket.html username=site.bitbucket_username %}
+            {% include icon-linkedin.html username=site.linkedin_username %}
           </li>
           {% endif %}
         </ul>
