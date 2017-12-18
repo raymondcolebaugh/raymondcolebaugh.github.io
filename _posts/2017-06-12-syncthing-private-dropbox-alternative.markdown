@@ -52,7 +52,7 @@ To hide your location and connection metadata, Syncthing can be configured to co
 
 To route your Syncthing traffic over Tor on a Linux system, you'll want to update your startup command to be prefixed with `torsocks`. This is also a good opportunity to restrict the process to a firejail.
 
-On Android, running Syncthing over Tor is as easy as installing Orbot and making the checkbox in the Syncthing settings!
+On Android, running Syncthing over Tor is as easy as installing Orbot and marking the checkbox in the Syncthing settings!
 
 ## Conclusion
 So as we have learned, there is a viable alternative to Dropbox! With Syncthing, you can reclaim ownership of your data. Your bits are stored on your servers, as many as you need to meet your redundancy requirements. You can still leverage the bandwidth of other peers in the system, without disclosing your private data. If you have opted to run Syncthing over Tor, you'll have added benefit of hiding your connection metadata from both your ISP and central services like Dropbox.

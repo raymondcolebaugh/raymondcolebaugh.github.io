@@ -44,7 +44,7 @@
       <div class="col-md-4">
         <p>{{ site.description }}</p>
 
-        <p>Like what I'm working on or learn something cool? Buy me a coffee or beer using bitcoin <a href="bitcoin:{{ site.bitcoin_address }}" data-toggle="modal" data-target="#btc-modal" >here</a>!
+        <p>Like what I'm working on or learn something cool? Buy me a coffee or beer using Bitcoin, Litecoin, or Ether <a href="bitcoin:{{ site.bitcoin_address }}" data-toggle="modal" data-target="#btc-modal" >here</a>!
         </p>
       </div>
     </div>
@@ -86,29 +86,41 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="btc-modal-label">Leave a Tip with Bitcoin</h4>
+        <h4 class="modal-title" id="btc-modal-label">Leave a Tip with Bitcoin, Litecoin, or Ether</h4>
       </div><!-- .modal-header -->
       <div class="modal-body text-center">
-        <div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
-             data-address="{{ site.bitcoin_address }}" data-shared="false">
-            <div class="blockchain stage-begin">
-                <img src="https://blockchain.info/Resources/buttons/donate_64.png" alt="Donate"/>
-                <p>
-                If you like what I'm working on or learned something cool, you can buy me a coffee or a beer by sending tips to the bitcoin address: <b><a href="bitcoin:{{ site.bitcoin_address }}">{{ site.bitcoin_address }}</a></b>
-                </p>
-            </div>
-            <div class="blockchain stage-loading" style="text-align:center">
-                <img src="https://blockchain.info/Resources/loading-large.gif" alt="loading"/>
-            </div>
-            <div class="blockchain stage-ready">
-                 <p align="center">Please Send Tips To Bitcoin Address: <b>[[address]]</b></p>
-                 <p align="center" class="qr-code"></p>
-            </div>
-            <div class="blockchain stage-paid">
-                 Your Tip of <b>[[value]] BTC</b> Received. Thank You Very Much!
-            </div>
-            <div class="blockchain stage-error">
-                <font color="red">[[error]]</font>
+        <div>
+            <div>
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#btc" aria-controls="btc" role="tab" data-toggle="tab">BTC</a></li>
+                <li role="presentation"><a href="#ltc" aria-controls="ltc" role="tab" data-toggle="tab">LTC</a></li>
+                <li role="presentation"><a href="#eth" aria-controls="eth" role="tab" data-toggle="tab">ETH</a></li>
+              </ul>
+
+              <br />
+
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="btc">
+                    <a href="bitcoin:{{ site.bitcoin_address }}">
+                        {% image bitcoin_tipjar.jpg %}
+                        <p><b>{{ site.bitcoin_address }}</b></p>
+                    </a>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="ltc">
+                    <a href="litecoin:{{ site.litecoin_address }}">
+                        {% image litecoin_tipjar.jpg %}
+                        <p><b>{{ site.litecoin_address }}</b></p>
+                    </a>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="eth">
+                    <a href="ethereum:{{ site.ether_address }}">
+                        {% image ethereum_tipjar.jpg %}
+                        <p><b>{{ site.ether_address }}</b></p>
+                    </a>
+                </div>
+              </div>
             </div>
         </div>
       </div><!-- .modal-body -->
@@ -121,5 +133,4 @@
 
 {% javascript main %}
 {% include analytics.html %}
-<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
