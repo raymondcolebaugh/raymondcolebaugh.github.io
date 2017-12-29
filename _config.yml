@@ -23,6 +23,7 @@ stackexchange_id: 3759451
 bitcoin_address: 1Dn2JSjGt1XGPQRq698JqHzzV1cSEK8HYf
 litecoin_address: LYXYhCte4TLBkrWYYtxX9bnjLXxXVZCvKe
 ether_address: "0x8E0e76Ba9f595A5C34F38A0Ed12DDE465844748E"
+bcash_address: 13DiKGgNs6SujA1HcsNrxfAVoApyhqLCqs
 practicing:
     - High Scalability
     - Reverse Engineering

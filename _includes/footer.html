@@ -44,7 +44,7 @@
       <div class="col-md-4">
         <p>{{ site.description }}</p>
 
-        <p>Like what I'm working on or learn something cool? Buy me a coffee or beer using Bitcoin, Litecoin, or Ether <a href="bitcoin:{{ site.bitcoin_address }}" data-toggle="modal" data-target="#btc-modal" >here</a>!
+        <p>Like what I'm working on or learn something cool? Tip me with a coffee or beer using Bitcoin, Litecoin, Ether, or BitcoinCash <a href="bitcoin:{{ site.bitcoin_address }}" data-toggle="modal" data-target="#btc-modal" >here</a>!
         </p>
       </div>
     </div>
@@ -86,7 +86,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="btc-modal-label">Leave a Tip with Bitcoin, Litecoin, or Ether</h4>
+        <h4 class="modal-title" id="btc-modal-label">Leave a Tip with Bitcoin, Litecoin, Ether, or BitcoinCash</h4>
       </div><!-- .modal-header -->
       <div class="modal-body text-center">
         <div>
@@ -95,6 +95,7 @@
                 <li role="presentation" class="active"><a href="#btc" aria-controls="btc" role="tab" data-toggle="tab">BTC</a></li>
                 <li role="presentation"><a href="#ltc" aria-controls="ltc" role="tab" data-toggle="tab">LTC</a></li>
                 <li role="presentation"><a href="#eth" aria-controls="eth" role="tab" data-toggle="tab">ETH</a></li>
+                <li role="presentation"><a href="#bch" aria-controls="eth" role="tab" data-toggle="tab">BCH</a></li>
               </ul>
 
               <br />
@@ -118,6 +119,13 @@
                     <a href="ethereum:{{ site.ether_address }}">
                         {% image ethereum_tipjar.jpg %}
                         <p><b>{{ site.ether_address }}</b></p>
+                    </a>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="bch">
+                    <a href="bitcoin:{{ site.bcash_address }}">
+                        {% image bcash_tipjar.jpg %}
+                        <p><b>{{ site.bcash_address }}</b></p>
                     </a>
                 </div>
               </div>
