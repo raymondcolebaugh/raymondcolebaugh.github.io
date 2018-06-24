@@ -34,3 +34,40 @@ desc "Clean rendered site and asset cache"
 task :clean do
   sh "ls -d .asset-cache _site && rm -rf .asset-cache _site"
 end
+
+desc "Create a new blog post template"
+task :create do
+  puts "Post Title?"
+  now = Time.now
+  title = STDIN.gets.chomp
+  date_string = now.strftime "%Y-%m-%d"
+  title_string = title.downcase.gsub ' ', '-'
+  filename = "_posts/#{date_string}-#{title_string}.markdown"
+
+  puts "Writing new post '#{title}' template to #{filename}...\n"
+  template = <<-EOT
+---
+layout: post
+title:  "#{title}"
+date:   #{now}
+category: 
+tags: 
+cta: 
+comments: true
+published: true
+---
+
+{% include toc.markdown %}
+
+## Section 1
+EOT
+  puts template
+
+  if Dir.exist? "_posts"
+      File.open filename, "w+" do |f|
+          f.puts template
+      end
+  else
+      puts "Unable to locate _posts directory"
+  end
+end
