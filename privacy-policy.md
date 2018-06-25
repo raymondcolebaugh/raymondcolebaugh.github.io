@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy-policy/
 ---
 
-The analytics software I use are self-hosted, free, and open source to best preserve privacy ([Piwik](https://www.piwik.org/) and [X2CRM](https://www.x2crm.com/)). This software is also configured to respect the Do Not Track header configurable in your browser, so to opt out you only need to [configure that setting](https://lifehacker.com/everywhere-you-can-enable-do-not-track-1006138985)! Note that the Do Not Track header requires the provider to respect the setting, so while my site won't track you, others might.
+The analytics software I use are self-hosted, free, and open source to best preserve privacy ([Piwik](https://www.piwik.org/) and [X2CRM](https://www.x2crm.com/)). This software is also configured to respect the Do Not Track header configurable in your browser, so to opt out you only need to [configure that setting](https://lifehacker.com/everywhere-you-can-enable-do-not-track-1006138985)! Note that the Do Not Track header requires the provider to respect the setting, so while my site won't track you, others might. You can also explicitly opt out with the controls presented below.
 
 The best way to opt-in while preserving privacy is by "allowing" the site with [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and using [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/), which will set DNT on each request made. You can then configure an exclusion for my site and others by going to "about:config" and setting the following value to a space-separated regex:
 
