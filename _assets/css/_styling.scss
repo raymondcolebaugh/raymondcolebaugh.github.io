@@ -250,10 +250,12 @@ hr {
 }
 
 .newsletter {
-    margin-top: 10px;
     border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 0px;
     p {
         text-align: center;
+        font-weight: bold;
     }
 }
 
