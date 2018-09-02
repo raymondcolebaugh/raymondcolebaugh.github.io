@@ -1,7 +1,13 @@
 {% if page.title and page.url %}
-<span>Share this on:</span>
-<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><span class="fa fa-twitter"></span>Twitter</a>
-<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><span class="fa fa-facebook-square"></span>Facebook</a>
-<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><span class="fa fa-google-plus-square"></span>Google+</a>
-<a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit"><span class="fa fa-reddit-square"></span>Reddit</a>
+    <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}&t={title}" rel="nofollow" target="_blank" title="Share on Hacker News">{% image sharing_icons/hacker.news.png %}</a>
+
+    <a href="https://buffer.com/add?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share using Buffer">{% image sharing_icons/buffer.png %}</a>
+
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">{% image sharing_icons/twitter.png %}</a>
+
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">{% image sharing_icons/facebook.png %}</a>
+
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">{% image sharing_icons/google.plus.png %}</a>
+
+    <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">{% image sharing_icons/reddit.png %}</a>
 {% endif %}

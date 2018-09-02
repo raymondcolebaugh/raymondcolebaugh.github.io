@@ -192,19 +192,24 @@ hr {
             padding-top: 2rem;
         }
     }
+    .pocket-link img {
+        height: 32px;
+        width: 32px;
+    }
     .post-sharing-links {
         font-size: larger;
         a {
             padding: 1rem;
             font-weight: bold;
             @include media-query($on-palm) {
+                padding: 0.5rem;
                 height: 1rem;
-                display: block;
             }
         }
-    }
-    a.why {
-        color: gray;
+        img {
+            height: 32px;
+            width: 32px;
+        }
     }
     ul.large-social-media {
         text-align: center;
