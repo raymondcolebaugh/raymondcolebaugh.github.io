@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colebaugh dot com</title>
+    <description>Guides and notes from a software engineer with interests in security, automation, and machine learning.
+</description>
+    <link>https://www.colebaugh.com/</link>
+    <atom:link href="https://www.colebaugh.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 12 Oct 2018 21:35:19 -0700</pubDate>
+    <lastBuildDate>Fri, 12 Oct 2018 21:35:19 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Trading Bitcoin, Litecoin, Ether, and BitcoinCash on Coinbase</title>
+        <description>&lt;p&gt;Since Bitcoin first started gaining traction in 2011, we’ve seen a boom in the development and interest in cryptocurrencies and blockchain technology. Many other cryptocurrencies were developed after Bitcoin, and several of them even became popular and are doing well. Cryptocurrencies are traded on sites known as “exchanges,” which transact various cryptocurrencies for fiat currency. Coinbase is one of the most popular and trusted exchanges. Coinbase is a San Francisco company which was founded in 2012, has gone through several successful rounds of funding, and has even been backed by some on Wall Street.&lt;/p&gt;
+
+&lt;p&gt;Coinbase is recommended to cryptocurrency beginners due to its ease of use and wide accessibility. In this guide, I’ll show you how to register, secure, and use your Coinbase account to trade &lt;a href=&quot;https://en.wikipedia.org/wiki/Bitcoin&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Litecoin&quot;&gt;Litecoin&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ethereum&quot;&gt;Ether&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Bitcoin_Cash&quot;&gt;BitcoinCash&lt;/a&gt;. This guide is primarily oriented toward users in the US, although the process is conceptually similar for other localities which Coinbase supports. Please see Coinbase’s support section in the references below to find particular information about using your local currency with Coinbase.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: be wise and choose carefully when investing into an asset as volatile as cryptocurrency. Like trading stock, there is an inherent risk in buying and selling cryptocurrencies, however the deviations can be much greater with crypto coins. Never invest more than you are willing and able to lose.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#registering-for-an-account&quot; id=&quot;markdown-toc-registering-for-an-account&quot;&gt;Registering for an Account&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#configuring-2-factor-authentication-2fa&quot; id=&quot;markdown-toc-configuring-2-factor-authentication-2fa&quot;&gt;Configuring 2 Factor Authentication (2FA)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#performing-deposits-and-withdrawals&quot; id=&quot;markdown-toc-performing-deposits-and-withdrawals&quot;&gt;Performing Deposits and Withdrawals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#buying-and-selling-bitcoin-litecoin-ether-and-bitcoincash&quot; id=&quot;markdown-toc-buying-and-selling-bitcoin-litecoin-ether-and-bitcoincash&quot;&gt;Buying and Selling Bitcoin, Litecoin, Ether, and BitcoinCash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#managing-wallet-addresses&quot; id=&quot;markdown-toc-managing-wallet-addresses&quot;&gt;Managing Wallet Addresses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#creating-a-vault-account&quot; id=&quot;markdown-toc-creating-a-vault-account&quot;&gt;Creating a Vault Account&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#additional-references&quot; id=&quot;markdown-toc-additional-references&quot;&gt;Additional References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registering-for-an-account&quot;&gt;Registering for an Account&lt;/h2&gt;
+&lt;p&gt;Before you can conduct any trades on the exchange, you need to &lt;a href=&quot;https://www.coinbase.com/join/5374eaf1b2fe88e352000054&quot; class=&quot;affiliate-link&quot;&gt;register for Coinbase.&lt;/a&gt;&lt;sup&gt;&lt;a href=&quot;/terms-of-service/&quot; title=&quot;I may earn a small commission for this affiliate link&quot;&gt;$&lt;/a&gt;&lt;/sup&gt;
+ You’ll need to provide your full name, email, a &lt;em&gt;good&lt;/em&gt; passphrase, and your state, then complete the CAPTCHA and agree to their terms. It’s free to have an account, but you pay transaction fees.&lt;/p&gt;
+
+&lt;p&gt;After you login to your Coinbase account, you’ll be presented with the dashboard. This view quickly shows you the charts for the three supported cryptocurrencies, the distribution of your funds on Coinbase, and your recent transaction history.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/dashboard_charts.jpg&quot; alt=&quot;Coinbase Dashboard&quot; style=&quot;max-height: 551px&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuring-2-factor-authentication-2fa&quot;&gt;Configuring 2 Factor Authentication (2FA)&lt;/h2&gt;
+&lt;p&gt;Before doing anything with your Coinbase account, you’ll want to lock it down with two factor authentication. This can be configured in the form of SMS messages or using TOTP codes with an app like Google Authenticator. I highly recommend the latter, as it is a much stronger assurance of security over the former.&lt;/p&gt;
+
+&lt;p&gt;To configure 2FA, navigate to the “Security” pane of the “Settings” tab. Here you can select the button to enable 2 factor auth with Authenticator . You’ll need to scan the QR code with your authenticator app to save the seed, then enter a test verification code to finish registering it.&lt;/p&gt;
+
+&lt;p&gt;You can also enable 2 factor auth on any sends, which will greatly reduce the chances of an attacker being able to transfer funds from your wallets.&lt;/p&gt;
+
+&lt;h2 id=&quot;performing-deposits-and-withdrawals&quot;&gt;Performing Deposits and Withdrawals&lt;/h2&gt;
+&lt;p&gt;One method of making deposits into your Coinbase account is through the use of credit/debit cards. Select the “Payment Method” dropdown on the “Buy/Sell” tab, and choose “Add New Account,” before selecting “Credit/Debit Card.” You’ll need to enter your card details, then go through two small verification charges. You’ll enter the values of the amounts charged to verify your card.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/add_account.jpg&quot; class=&quot;pull-right half-size spaced&quot; alt=&quot;Adding a New Account&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that for each of these methods, you’ll be requested to complete ID verification with Coinbase. You can feel just as safe doing this with Coinbase as with other financial providers, as they are &lt;a href=&quot;https://support.coinbase.com/customer/en/portal/articles/2689172-is-coinbase-regulated-&quot;&gt;regulated&lt;/a&gt; and operate under the same laws as a US financial company and have thus far proven a strong security model.&lt;/p&gt;
+
+&lt;p&gt;You can also link your bank account to perform deposits. This can be done by either logging in to your online banking provider, or through a deposit verification into your account. The deposit verification works similarly to the verification for credit/debit cards described above.&lt;/p&gt;
+
+&lt;p&gt;If you don’t want to link your bank account, you can also request a wire transfer. Select your USD wallet on the Accounts tab, then hit “Deposit.” Select “Wire Transfer” as your payment method and supply the transfer details from your bank.&lt;/p&gt;
+
+&lt;p&gt;For withdrawals, you can request a wire transfer back to your bank account. Add a new payment method and select “Add Wire Withdrawal Information,” then follow the forms with the information from your bank to register.&lt;/p&gt;
+
+&lt;p&gt;You can also connect a PayPal account to perform withdrawals. Make sure you’ve verified your ID with Coinbase in order to enable PayPal as a payment method. Then, select “Add Payment Method” and choose PayPal, before logging in and verifying your PayPal account.&lt;/p&gt;
+
+&lt;h2 id=&quot;buying-and-selling-bitcoin-litecoin-ether-and-bitcoincash&quot;&gt;Buying and Selling Bitcoin, Litecoin, Ether, and BitcoinCash&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/buy_ethereum.jpg&quot; class=&quot;pull-right half-size spaced&quot; alt=&quot;Purchasing Ethereum&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have your USD wallet set up, and a payment method registered or have already received some coins, you’ll be ready to purchase some cryptocurrency. First, navigate to the “Buy/Sell” tab. When you first reach the page, Buy will already be selected as your action. You can select the currency you’d like to purchase, your payment method, and finally the amount to purchase. You can specify this amount in either USD or the cryptocurrency you’ve selected. There are also controls for repeating this purchase. Once you’ve configured the form, hit the button to buy the coin. You’ll then verify the transaction details look sane, before confirming the purchase.&lt;/p&gt;
+
+&lt;p&gt;Congratulations, you’ve just purchased your first cryptocurrency!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/sell_litecoin.jpg&quot; class=&quot;pull-right half-size spaced&quot; alt=&quot;Selling Litecoin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let’s say that after some time, the price of that cryptocurrency increases. You’d like to sell some of your coin and invest in another cryptocurrency. To do so, select “Sell” on the “Buy/Sell” tab. Here you can select the wallet to sell from, where you want to deposit, and the amount to sell. Just like the Buy action, you can configure to repeat this sell order. Hit the button to sell your cryptocurrency, then verify the transaction details and confirm the sell.&lt;/p&gt;
+
+&lt;p&gt;Note that transactions will take some time to settle on the various networks, requiring multiple transaction confirmations to be completed. For large transactions, you’ll want to wait until it is fully confirmed before taking action, such as selling an expensive item like a car. At the time of writing, transactions take quite some time (20min+) to settle on the Bitcoin network due to the high activity.&lt;/p&gt;
+
+&lt;h2 id=&quot;managing-wallet-addresses&quot;&gt;Managing Wallet Addresses&lt;/h2&gt;
+&lt;p&gt;Normally Coinbase will generate new addresses automatically as you make transactions. This avoids providing a complete list of your transaction history on a single address. If you do want to reuse or manually add new addresses to your various wallets, you can do that too!&lt;/p&gt;
+
+&lt;p&gt;To manage all of your different wallet addresses, navigate to the “Addresses” pane in the “Tools” tab. Here you can find a dropdown list of each of your different wallets, along with their current value. Select an account to view the addresses associated with that wallet. Once you’ve selected the wallet you want to add a new address to, simply hit the “Create New Address” button to the right of the dropdown and filter. To the right of each address entry, you can find a “Details” button, which takes you to the address page to set a label or view a QR code and send/receive from this address.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-vault-account&quot;&gt;Creating a Vault Account&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/create_vault.jpg&quot; class=&quot;pull-right half-size spaced&quot; alt=&quot;Creating a New Vault Account&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For a bit tighter security than your regular hot wallets, you can opt to store larger amounts of your funds in a Vault Account. Vault accounts enforce a 48 hour waiting period before funds can be transferred from the vault account, as well as verification from two email addresses. This would give you the necessary time to take action in the event your account was compromised and an attacker attempted to drain your vault. Vault accounts support holding Bitcoin, Litecoin, Ether, and BitcoinCash.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/coinbase/name_vault.jpg&quot; class=&quot;pull-right half-size spaced&quot; alt=&quot;Naming a Vault&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To configure your vault account, navigate to the “Accounts” tab, then scroll to the bottom of your account list. Select “Vault” and click the “Create Vault” button. Next, select the type of currency you’d like to use for this vault. You’ll be prompted for a name for the vault, and whether withdrawals will be approved individually or by a group co-signing. Next, you’ll be prompted to add a secondary email address in order to receive two separate withdrawal verification links. This will raise the bar for attackers who want to transfer funds from your vault accounts, requiring compromise of two separate email accounts. Repeat this process twice more for the other two types of currency.&lt;/p&gt;
+
+&lt;p&gt;For even stronger security measures, you should consider using a hardware wallet like a Trezor. This device supports Bitcoin, Litecoin, Ether, and BitcoinCash, plus a handful of other coins, and is safe to use even on untrusted systems thanks to its design. For the highest security, a “paper wallet” can be used as cold storage. This is an export of your key, usually printed as a QR code. You could alternatively store your 12 to 24 word seed phrase which generates your keys. Store this paper wallet in a safe place, like a safety deposit box or a safe.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;If you haven’t already done so, make sure you &lt;a href=&quot;https://www.coinbase.com/join/5374eaf1b2fe88e352000054&quot; class=&quot;affiliate-link&quot;&gt;register for Coinbase!&lt;/a&gt;&lt;sup&gt;&lt;a href=&quot;/terms-of-service/&quot; title=&quot;I may earn a small commission for this affiliate link&quot;&gt;$&lt;/a&gt;&lt;/sup&gt;
+ This exchange is easy to use, offers the three major crypto coins, and is a licensed and regulated US exchange. This is a great platform to start exploring cryptocurrency. As you’ve seen, it’s easy to add payment methods, buy and sell various cryptocurrencies, and manage multiple addresses for each of your wallets.&lt;/p&gt;
+
+&lt;p&gt;What’s next? Once you’ve made a few transactions, you’ll be prepared to start organizing your cryptocurrency portfolio. It’s best to keep track of the performance of your holdings so you can make data-driven decisions when optimizing how you balance your assets. It is also wise to spread your portfolio value over multiple assets and storage media to manage risk to your investments.&lt;/p&gt;
+
+&lt;p&gt;I hope you’ve enjoyed getting started on this exchange! Have any tips on working with Coinbase? Leave a comment below about your experiences! Don’t forget to subscribe to the newsletter below to be notified when more useful articles like this are published.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-references&quot;&gt;Additional References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.coinbase.com/&quot;&gt;Coinbase Support Knowledgebase&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Coinbase&quot;&gt;Coinbase on Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 17 Dec 2017 18:10:54 -0800</pubDate>
+        <link>https://www.colebaugh.com/cryptocurrency/2017/12/17/trading-crypto-on-coinbase.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/cryptocurrency/2017/12/17/trading-crypto-on-coinbase.html</guid>
+        
+        <category>bitcoin</category>
+        
+        <category>litecoin</category>
+        
+        <category>ethereum</category>
+        
+        <category>bitcoincash</category>
+        
+        <category>cryptocurrency</category>
+        
+        
+        <category>cryptocurrency</category>
+        
+      </item>
+    
+      <item>
+        <title>Encrypted File Containers with Tomb </title>
+        <description>&lt;p&gt;With the demise of TrueCrypt, many were in search of a viable replacement. Fortunately, those in a Linux environment still had dm-crypt and LUKS. While you can create encrypted file containers using dm-crypt, it takes a few more steps than just clicking “mount” in your list of containers. Writing your own wrapper for &lt;code class=&quot;highlighter-rouge&quot;&gt;cryptsetup&lt;/code&gt; is fun, but at times you may want to leverage something with a bit more power out of the box. Tomb is a wonderful command line interface to manage your encrypted file containers. Besides creating, mounting, and unmounting containers, it features powerful functionality like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hooks to automatically mount directories and execute scripts&lt;/li&gt;
+  &lt;li&gt;Steganography with steghide to hide your keys in images&lt;/li&gt;
+  &lt;li&gt;Use of Key Derivation Functions to combat dictionary attacks&lt;/li&gt;
+  &lt;li&gt;Support for exporting your key as a QR code for cold storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Someone even wrote a GUI if you like using those. :D&lt;/p&gt;
+
+&lt;p&gt;Even if you’re using Full Disk Encryption, you can benefit from using encrypted file containers. This is best for a thorough Defense in Depth strategy, requiring multiple (different) keys to get to the innermost data. For strong operational security, it is recommended to separate each of your containers and keys according to concern. Encrypted containers are also well suited for storing on untrusted systems, such as questionable cloud providers or online storage solutions like Dropbox. As long as you handle your sensitive data on your local, trusted machine, the provider will only ever see random binary blobs. We’ll explore some of our options below after getting acquainted with Tomb. Let’s get started!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#installation&quot; id=&quot;markdown-toc-installation&quot;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#creating-a-new-container&quot; id=&quot;markdown-toc-creating-a-new-container&quot;&gt;Creating a New Container&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#burying-your-keys&quot; id=&quot;markdown-toc-burying-your-keys&quot;&gt;Burying your Keys&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#automatically-mount-directories-with-bind-hooks&quot; id=&quot;markdown-toc-automatically-mount-directories-with-bind-hooks&quot;&gt;Automatically Mount Directories with Bind Hooks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#automatically-run-commands-with-post-hooks&quot; id=&quot;markdown-toc-automatically-run-commands-with-post-hooks&quot;&gt;Automatically Run Commands with Post Hooks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#storing-tombs-in-the-cloud&quot; id=&quot;markdown-toc-storing-tombs-in-the-cloud&quot;&gt;Storing Tombs in the Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#additional-references&quot; id=&quot;markdown-toc-additional-references&quot;&gt;Additional References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;First you’ll need to install the prerequisites, namely zsh. For some extra goodies, you’ll also want some other packages, like &lt;code class=&quot;highlighter-rouge&quot;&gt;dcfldd&lt;/code&gt; (to see progress when generating tombs and keys), &lt;code class=&quot;highlighter-rouge&quot;&gt;haveged&lt;/code&gt; (for stirring the system’s entropy pool), &lt;code class=&quot;highlighter-rouge&quot;&gt;steghide&lt;/code&gt; (for “burying” and “exhuming” keys from images), &lt;code class=&quot;highlighter-rouge&quot;&gt;qrencode&lt;/code&gt; (for “engraving” a QR code of your key), and &lt;code class=&quot;highlighter-rouge&quot;&gt;libgcrypt-dev&lt;/code&gt; (for using key derivation functions). On Debian and Ubuntu this is as easy as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install zsh dcfldd haveged steghide qrencode libgcrypt-dev wipe
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next, download the tomb archive from &lt;a href=&quot;https://files.dyne.org/tomb/&quot;&gt;dyne.org&lt;/a&gt;, retrieve Jaromil’s key from the MIT keyservers or from &lt;a href=&quot;https://keybase.io/jaromil&quot;&gt;Keybase&lt;/a&gt;, and verify the PGP signature:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg --recv-keys 0x73B35DA54ACB7D10 --keyserver pgp.mit.edu
+wget https://files.dyne.org/tomb/Tomb-2.4.tar.gz&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;,.asc&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+gpg -v Tomb-2.4.tar.gz.asc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You should get a “Good signature…” in the output if the file hasn’t been tampered or corrupted:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+gpg: Good signature from &lt;span class=&quot;s2&quot;&gt;&quot;Denis Roio (Jaromil) &amp;lt;jaromil@dyne.org&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6113 D89C A825 C5CE DD02  C872 73B3 5DA5 4ACB 7D10
+gpg: binary signature, digest algorithm SHA256
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Good, now we can actually install it!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tar -zxf Tomb-2.4.tar.gz
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;Tomb-2.4
+sudo make install
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;extras
+
+&lt;span class=&quot;c&quot;&gt;# If you want the Zenity gui:&lt;/span&gt;
+sudo install -Dm755 gtomb/gtomb /usr/local/bin/gtomb
+
+&lt;span class=&quot;c&quot;&gt;# For using key derivation functions&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;kdf-keys
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;creating-a-new-container&quot;&gt;Creating a New Container&lt;/h2&gt;
+&lt;p&gt;Before you can store any files, you need to create a new container, and a corresponding keyfile to lock the container.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# First dig your new tomb, in this example 256MB&lt;/span&gt;
+tomb dig -s 256 documents.tomb
+
+&lt;span class=&quot;c&quot;&gt;# Next, create the key with it&#39;s associated password&lt;/span&gt;
+tomb forge documents.tomb.key
+tomb forge --kdf 128 documents.tomb.key  &lt;span class=&quot;c&quot;&gt;# to use KDF, adjust for system&#39;s cpu&lt;/span&gt;
+tomb lock documents.tomb -k documents.tomb.key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When you need to mount your tomb, execute:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb open documents.tomb -k documents.tomb.key
+
+&lt;span class=&quot;c&quot;&gt;# You can also specify mount options with -o&lt;/span&gt;
+tomb open documents.tomb -k documents.tomb.key -o ro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can list your open tombs using:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When you need to close your tomb, you can use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb close documents
+tomb slam  &lt;span class=&quot;c&quot;&gt;# alias for &quot;tomb close all&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you need to change the password of your keyfile, use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb passwd -k documents.tomb.key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then, when you need to rotate keys, generate a new key and issue the “setkey” subcommand:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb forge documents.tomb.new_key
+tomb setkey documents.tomb.key documents.tomb -k documents.tomb.new_key
+
+&lt;span class=&quot;c&quot;&gt;# Verify you can open the tomb with the new key&lt;/span&gt;
+tomb open documents.tomb -k documents.tomb.new_key
+tomb close documents
+
+&lt;span class=&quot;c&quot;&gt;# Then replace the old key, or wipe it on magnetic disks&lt;/span&gt;
+shred -uvzn 3 documents.tomb.key  &lt;span class=&quot;c&quot;&gt;# optional&lt;/span&gt;
+mv documents.tomb.new_key documents.tomb.key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;burying-your-keys&quot;&gt;Burying your Keys&lt;/h2&gt;
+&lt;p&gt;With the steghide package installed, you can use &lt;a href=&quot;https://en.wikipedia.org/wiki/Steganography&quot;&gt;steganography&lt;/a&gt; to hide your key in a jpeg. Note that this is not compatible with the KDF method, as this would invalidate the benefits of multiple rounds.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; If you were already using a keyfile with KDF, you’ll want to first rotate keys to one without KDF to avoid losing access to your tomb when you exhume your key!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# First bury your key in an image&lt;/span&gt;
+tomb bury -k documents.tomb.key Pictures/lolcats.jpg
+rm documents.tomb.key
+
+&lt;span class=&quot;c&quot;&gt;# When you need to open your tomb, exhume the key&lt;/span&gt;
+tomb exhume -k documents.tomb.key Pictures/lolcats.jpg
+tomb open -k documents.tomb.key documents.tomb
+
+&lt;span class=&quot;c&quot;&gt;# You can also open a tomb with the jpeg directly, unfortunately this doesn&#39;t&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# work through STDIN though&lt;/span&gt;
+tomb open -k lolcats.jpg Pictures/lolcats.jpg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Finally, to prepare a cold storage backup of your key, you can export it to a QR code and print it out. Store this in a safe, book, or safety deposit box until needed in a recovery situation. Set a reminder on your calendar to rotate your cold storage keys in another 6 or 12 months, adjusted to your liking. Note that this does export your key while still under protection of your passphrase.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tomb engrave -k documents.tomb.key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;automatically-mount-directories-with-bind-hooks&quot;&gt;Automatically Mount Directories with Bind Hooks&lt;/h2&gt;
+&lt;p&gt;Bind hooks allow you to specify a mapping of folders on your container to a mount point on your file system. They will be automatically mounted to the target location in your homedir when you open your tomb. Examples of good candidates are your email cache, gpg/ssh keys, or Documents. Create a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;bind-hooks&lt;/code&gt; with a mapping of tomb directories to directories in your homedir :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;documents Documents
+gpg .gnupg
+ssh .ssh
+thunderbird .thunderbird
+mozilla .mozilla
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then, when you mount your tomb, each of these directories will automatically become available. In this example, we’re mounting the metadata directories for Thunderbird and Firefox, as well as our user’s Documents folder and the SSH/GPG keys.&lt;/p&gt;
+
+&lt;h2 id=&quot;automatically-run-commands-with-post-hooks&quot;&gt;Automatically Run Commands with Post Hooks&lt;/h2&gt;
+&lt;p&gt;Similarly to bind hooks, post hooks allow you to take action after your container is opened or before it is closed. In this case, we can instead execute an arbitrary shell script. The possibilities are literally endless. To begin, create your &lt;code class=&quot;highlighter-rouge&quot;&gt;post-hooks&lt;/code&gt; file. Continuing with the bind hooks example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# !/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;OPERATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;MNT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$OPERATION&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;open&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;ssh-agent -s&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;gpg-agent --daemon&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+    thunderbird &amp;amp;
+    ssh-add
+&lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$OPERATION&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;close&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;ssh-add -D
+    ssh-agent -k
+    gpg-agent -k
+    pkill thunderbird
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This example script would let us automatically fire up ssh-agent and gpg-agent, add our ssh keys, and start Thunderbird once the tomb was mounted. Then, when we close the tomb, we’ll automatically ensure Thunderbird is stopped, the ssh keys are removed from the keyring, and the agents are stopped. Two arguments are passed into the script: the operation, either “open” or “close”, and the tomb’s mountpoint. This allows us to perform different actions for setup and teardown.&lt;/p&gt;
+
+&lt;h2 id=&quot;storing-tombs-in-the-cloud&quot;&gt;Storing Tombs in the Cloud&lt;/h2&gt;
+&lt;p&gt;There are a few different approaches to using cloud providers with tomb. Most importantly, the container and the key material &lt;strong&gt;should not&lt;/strong&gt; be kept in the same place. We can choose to store either the container or the keys on a remote host, according to preference. For example, you might choose to store your keys on your locked-down OpenBSD box, whole keeping your tomb on your Linux laptop.&lt;/p&gt;
+
+&lt;p&gt;If you opt to take this route and store your keys remotely, then you can &lt;code class=&quot;highlighter-rouge&quot;&gt;cat&lt;/code&gt; your key over SSH and pipe it into STDIN for tomb:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh user@example.com &lt;span class=&quot;s1&quot;&gt;&#39;cat .secrets/vault.tomb.key &#39;&lt;/span&gt; | tomb open -k - vault.tomb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On the other hand, you might prefer to keep your keys local and open a remote tomb. The best way to do this and keep all your secrets local is by using SSHFS. By doing so, you can remove trust from the remote host, as all it will ever see are blocks of encrypted data.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sshfs example.com:tombs tombs
+tomb open -k vault.tomb.key tombs/vault.tomb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This example will mount the remote “tombs” directory into a local directory of the same name. Then, the local key will be used to open the tomb located in the mount point for the remote SSHFS directory. At no point did the remote host have access to the key or the decrypted data. Only the blocks that actually change are transferred, saving more bandwidth than some other remote storage solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;As we have learned, Tomb provides a wide array of functionality to manage encrypted file containers. This convenient interface allows us to quickly integrate an additionally layer of encryption into our daily workflow. This is useful not only for securely storing sensitive documents, but also protecting configuration and metadata in your home directory. The power of bind and post hooks avoid repetitive actions after mounting your tomb, greatly streamlining your daily setup.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick cheat sheet of common Tomb operations:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operation&lt;/th&gt;
+      &lt;th&gt;Example&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Create a tomb&lt;/td&gt;
+      &lt;td&gt;tomb dig -s 128 name.tomb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Create a keyfile&lt;/td&gt;
+      &lt;td&gt;tomb forge name.tomb.key&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;tomb forge –kdf 128 name.tomb.key (to use KDF)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Lock a tomb with a key&lt;/td&gt;
+      &lt;td&gt;tomb lock -k name.tomb.key name.tomb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Open a locked tomb&lt;/td&gt;
+      &lt;td&gt;tomb open -k name.tomb.key name.tomb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;List open tombs&lt;/td&gt;
+      &lt;td&gt;tomb list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Close a specific tomb&lt;/td&gt;
+      &lt;td&gt;tomb close name&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Close all tombs&lt;/td&gt;
+      &lt;td&gt;tomb close all&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;tomb slam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bury a key in a jpg&lt;/td&gt;
+      &lt;td&gt;tomb bury -k name.tomb.key image.jpg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Exhume a key from a jpg&lt;/td&gt;
+      &lt;td&gt;tomb exhume -k name.tomb.key image.jpg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Change the password of a key&lt;/td&gt;
+      &lt;td&gt;tomb passwd -k name.tomb.key&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Change the key to a tomb&lt;/td&gt;
+      &lt;td&gt;tomb setkey -k name.tomb.new_key name.tomb.key name.tomb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Export the key to a QR code&lt;/td&gt;
+      &lt;td&gt;tomb engrave -k name.tomb.key&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I hope you’ve enjoyed learning about this versatile crypto tool! Tomb is a powerful and easy to use option for keeping multiple encrypted containers, wrapping the tried and true dm-crypt. What kind of directories or scripts do you like to use for bind and post hooks? Leave a comment below, and let me know if you have any other questions. Don’t forget to subscribe to the newsletter for more useful content and updates on the latest tooling, and thanks for reading!&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-references&quot;&gt;Additional References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;tomb(1)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dyne.org/software/tomb/&quot;&gt;Tomb website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dyne/Tomb&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2017 12:40:25 -0700</pubDate>
+        <link>https://www.colebaugh.com/security/2017/11/04/encrypted-containers-with-tomb.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/security/2017/11/04/encrypted-containers-with-tomb.html</guid>
+        
+        <category>security</category>
+        
+        <category>crypto</category>
+        
+        
+        <category>security</category>
+        
+      </item>
+    
+      <item>
+        <title>Syncthing: Private Dropbox Alternative</title>
+        <description>&lt;p&gt;In light of past events, some Dropbox users are questioning whether it’s worth it to trust them with any of their data. If Condoleezza Rice being on board wasn’t a big enough hit to privacy, a 2012 data breach finally surfaced, promoting many users to reset their passwords. Then, some users reported Dropbox on OS X using a password prompt similar to that in the OS to reconfigure. Needless to say, if you placed any trust in Dropbox before, it may be time to reconsider. This doesn’t only apply to Dropbox though: you can switch from ANY hosted cloud provider to Syncthing!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-is-syncthing&quot; id=&quot;markdown-toc-what-is-syncthing&quot;&gt;What is Syncthing?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#comparison-with-dropbox&quot; id=&quot;markdown-toc-comparison-with-dropbox&quot;&gt;Comparison with Dropbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#installation&quot; id=&quot;markdown-toc-installation&quot;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-syncthing&quot; id=&quot;markdown-toc-using-syncthing&quot;&gt;Using Syncthing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bonus-points-connect-over-tor&quot; id=&quot;markdown-toc-bonus-points-connect-over-tor&quot;&gt;Bonus Points: Connect Over Tor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#additional-references&quot; id=&quot;markdown-toc-additional-references&quot;&gt;Additional References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-is-syncthing&quot;&gt;What is Syncthing?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://syncthing.net/&quot;&gt;Syncthing&lt;/a&gt; is a file synchronization tool which duplicates your files across all of your configured machines. Similar in concept to btsync, Syncthing keeps your files in sync by propagating the changes you make to the other nodes. All data passed between nodes is encrypted in transit. Unlike Dropbox and other file sync tools, Syncthing is peer to peer and is not dependant on a central service. You can however use a central server to dynamically connect your nodes. If you’d prefer to disable this, you can configure static addresses for your Syncthing nodes using their hostname or IP address. Local discovery is available as well for traffic between the nodes within your LAN, and functions through use of a broadcast. You can also use other Syncthing peers as relays. Since all of the data passed us encrypted, the third party relays cannot intercept any of your content.&lt;/p&gt;
+
+&lt;h2 id=&quot;comparison-with-dropbox&quot;&gt;Comparison with Dropbox&lt;/h2&gt;
+&lt;p&gt;Syncthing’s list of features will be very familiar to users already on Dropbox. Both are written in Go, allow you to sync specific folders, and perform revision control. Additionally, both detect renaming and moving files, avoiding needlessly transferring data. A few key differences are listed in the table below:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Dropbox&lt;/th&gt;
+      &lt;th&gt;Syncthing&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Price&lt;/td&gt;
+      &lt;td&gt;Free-$50/mo&lt;/td&gt;
+      &lt;td&gt;Free&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;License.&lt;/td&gt;
+      &lt;td&gt;Proprietary&lt;/td&gt;
+      &lt;td&gt;open source (MPL v2)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OS&lt;/td&gt;
+      &lt;td&gt;Win/OS X/Linux/Android/iPhone/Blackberry&lt;/td&gt;
+      &lt;td&gt;Win/OS X/Linux/Solaris/Android&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Architecture&lt;/td&gt;
+      &lt;td&gt;Centralized&lt;/td&gt;
+      &lt;td&gt;Decentralized/P2P, with optional centralized features&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;On Windows and OS X, you’ll want to download and execute the installer from the Syncthing site. On Android devices, the app can be downloaded from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&quot;&gt;Google Play&lt;/a&gt; store.&lt;/p&gt;
+
+&lt;p&gt;Finally, on Linux, you can compile from source, or use apt on Debian or Ubuntu. This is preferable so you’ll be able to update Syncthing with the rest of your system packages. First, install their release PGP key and add their repo information to apt. Then update your package lists and install the syncthing package. It’s also a good idea to install the syncthing-inotify package to more efficiently watch the sync directories for file changes.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb http://apt.syncthing.net/ syncthing release&quot;&lt;/span&gt; | sudo tee /etc/apt/sources.list.d/syncthing.list
+sudo apt-get update
+sudo apt-get install syncthing syncthing-inotify
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;using-syncthing&quot;&gt;Using Syncthing&lt;/h2&gt;
+&lt;p&gt;Once Syncthing is installed, you can launch it by executing &lt;code class=&quot;highlighter-rouge&quot;&gt;syncthing&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;syncthing.exe&lt;/code&gt;. Then open you web browser and navigate to http://localhost:8384. The web interface features controls for managing your connected devices, your different shared directories, and settings like your host name.&lt;/p&gt;
+
+&lt;p&gt;On Linux, depending on how you like to start your applications you might want to add the command to your window manager autorun, or write an init script or systemd service definition.&lt;/p&gt;
+
+&lt;p&gt;To connect your mobile device to your laptop, desktop, or server, bring up the system ID QR code. Next, on your mobile device, add a new connection, then scan the QR code. To add your mobile device to your laptop, you’ll need to copy your device ID over. Copy it from the Syncthing interface and move it to your laptop in the method of your choosing, or just type it in. Syncthing is designed for it to be safe to share IDs. Mutual authentication is required for connectivity. You’ll want to ensure the name of your share matches on both of your devices.&lt;/p&gt;
+
+&lt;p&gt;Once your devices are connected, copy a test file into your sync directory. Wait for Syncthing to propagate the changes, then examine the file on your other device. The content should match that of your source file. From the user’s perspective, it functions in the same manner as other file sync solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus-points-connect-over-tor&quot;&gt;Bonus Points: Connect Over Tor&lt;/h2&gt;
+&lt;p&gt;To hide your location and connection metadata, Syncthing can be configured to connect over Tor. The mobile app also features controls for connecting with Orbot. If you’ve somehow escaped hearing of Tor in the past few years, &lt;a href=&quot;https://www.torproject.org&quot;&gt;Tor&lt;/a&gt; is a proxy network that works by onion routing. It utilizes multiple hops in a chain, each layer independently encrypted. The connection is finally unwrapped at the exit node, where it is passed on to your destination. It’s a great proxy solution built on years of academic research and military funding. I highly recommend checking it out, it has a lot of neat features.&lt;/p&gt;
+
+&lt;p&gt;To route your Syncthing traffic over Tor on a Linux system, you’ll want to update your startup command to be prefixed with &lt;code class=&quot;highlighter-rouge&quot;&gt;torsocks&lt;/code&gt;. This is also a good opportunity to restrict the process to a firejail.&lt;/p&gt;
+
+&lt;p&gt;On Android, running Syncthing over Tor is as easy as installing Orbot and marking the checkbox in the Syncthing settings!&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So as we have learned, there is a viable alternative to Dropbox! With Syncthing, you can reclaim ownership of your data. Your bits are stored on your servers, as many as you need to meet your redundancy requirements. You can still leverage the bandwidth of other peers in the system, without disclosing your private data. If you have opted to run Syncthing over Tor, you’ll have added benefit of hiding your connection metadata from both your ISP and central services like Dropbox.&lt;/p&gt;
+
+&lt;p&gt;Remember, a file sync is NOT a backup!!! Offsite cold storage is preferable for that, as it won’t be touched when you accidentally &lt;code class=&quot;highlighter-rouge&quot;&gt;rm -rf&lt;/code&gt; your box at 4am. Let me know your experiences switching to Syncthing in the comments below and subscribe to the mailing list to stay in the loop!&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-references&quot;&gt;Additional References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://syncthing.net/&quot;&gt;syncthing.net/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/syncthing/syncthing&quot;&gt;github.com/syncthing/syncthing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.syncthing.net/users/security.html&quot;&gt;docs.syncthing.net/users/security.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Jun 2017 17:48:11 -0700</pubDate>
+        <link>https://www.colebaugh.com/productivity/2017/06/12/syncthing-private-dropbox-alternative.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/productivity/2017/06/12/syncthing-private-dropbox-alternative.html</guid>
+        
+        <category>opensource</category>
+        
+        <category>productivity</category>
+        
+        
+        <category>productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>Santa Cruz CryptoParty Recap 3/25</title>
+        <description>&lt;p&gt;A CryptoParty is an event to pass on knowledge about protecting yourself in the digital space. This includes anything from defending yourself on the web to securing your messaging.&lt;/p&gt;
+
+&lt;p&gt;You can learn how to keep malicious attackers away from your communications, your finances, and your personal thoughts and ideas. CryptoParties are free for everyone and for all to attend, especially those without prior knowledge. Cryptography is key to protecting our information in many of the interactions we have throughout our day.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Crypto is everywhere. It surrounds us.&lt;/p&gt;
+
+  &lt;p&gt;~ Morpheus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We began the day discussing why crypto matters in todays digital world. Crypto is everywhere, and is vitally important to our privacy, security, and identity. We discussed the basics of cryptography, its origins, types of crypto, and the security services crypto provides; secure mobile messaging with Signal, a private alternative to calling, texting, and video chat; Tor and i2p, their functionality and components, and their similarities and differences; and the importance of internet anonymity to promote free speech and democracy.&lt;/p&gt;
+
+&lt;p&gt;We then talked about Bitcoin, the advent of the blockchain, Namecoin and anti-censorship, and innovations to other areas of science using a blockchain; PGP, its usage, popular integrations to make PGP easy, and the web of trust; HTTPS Everywhere, Let’s Encrypt, and TLS; the benefits of password managers like KeePassX and LastPass, and authenticating with Yubi Keys using one time passwords and public key crypto; secure instant messaging with OTR and OMEMO, as well as using Ricochet for anonymous IM; the benefits and threats to cryptography with the innovations in quantum computing and the possibilities of quantum cryptography.&lt;/p&gt;
+
+&lt;p&gt;We then installed and configured various tools, generated keys, and discussed issues such as having a high quality entropy source or whether containers were adequate isolation. We also discussed threat modeling, and attacks on your phone using social engineering and vulnerabilities in SS7. Someone had their Yubi Key available to show, and it was really neat being able to see a hardware bitcoin wallet in person as well.&lt;/p&gt;
+
+&lt;p&gt;Thank you to all who attended, we had some great discussions about the threats to our privacy and security. Can’t wait until the next CryptoParty!&lt;/p&gt;
+
+&lt;p&gt;Special thanks to our sponsors &lt;a href=&quot;https://www.twitter.com/spyrosoft&quot;&gt;@spyrosoft&lt;/a&gt; (&lt;a href=&quot;https://spyrosoft.com/&quot;&gt;www&lt;/a&gt;) and &lt;a href=&quot;https://www.twitter.com/extra_galactic&quot;&gt;@extra_galactic&lt;/a&gt;! We provide secure application development and hosting, and enjoy taking every precaution with the security and privacy of your data. Feel free to contact us if you have a project requiring sensitive security considerations.&lt;/p&gt;
+
+&lt;p&gt;You can find the Santa Cruz CryptoParty page at &lt;a href=&quot;https://www.cryptoparty.in/SantaCruz&quot;&gt;cryptoparty.in/SantaCruz&lt;/a&gt; for future events.&lt;/p&gt;
+
+&lt;p&gt;If you’re on Facebook, like the &lt;a href=&quot;https://www.facebook.com/SantaCruzCryptoParty&quot;&gt;Santa Cruz CryptoParty page&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Below are the slides for reference, please leave any questions in the comments below!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://spyrosoft.com/blog/cryptoparty.html&quot; width=&quot;100%&quot; height=&quot;420px&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 26 Mar 2017 11:17:38 -0700</pubDate>
+        <link>https://www.colebaugh.com/security/2017/03/26/santacruz-cryptoparty.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/security/2017/03/26/santacruz-cryptoparty.html</guid>
+        
+        <category>security</category>
+        
+        <category>privacy</category>
+        
+        <category>crypto</category>
+        
+        
+        <category>security</category>
+        
+      </item>
+    
+      <item>
+        <title>SSH Two-Factor Auth (2FA)</title>
+        <description>&lt;p&gt;In today’s ever-expanding threat to our information systems, we need every defensive measure we can get. To employ a defense-in-depth strategy, it is beneficial to require a second authentication factor. This is usually performed by sending a random string via SMS, but this is no longer good enough. Attackers may coerce your mobile provider into handing over control of your number, granting them access to your codes. The preferred method is with a one time pad generated from the current time and random seed value. This is known as Time-based One Time Pad (TOTP). If you’d like to lock down your Linux box, 2FA is a great way to do so. Even with public key authentication (don’t even consider password authentication on an-internet exposed machine).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#set-up&quot; id=&quot;markdown-toc-set-up&quot;&gt;Set Up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#recovery&quot; id=&quot;markdown-toc-recovery&quot;&gt;Recovery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#additional-references&quot; id=&quot;markdown-toc-additional-references&quot;&gt;Additional References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;set-up&quot;&gt;Set Up&lt;/h2&gt;
+&lt;p&gt;First you’ll need the software to generate authentication codes on your mobile device. You can use an app like the Google Authenticator to do so. This app allows you to use a QR code to import your seed value, making setup simple and quick. You can get the app for both &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8&quot;&gt;iOS&lt;/a&gt;. You could instead use Red Hat’s &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp&quot;&gt;FreeOTP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To perform TOTP protected logins on the server, we must first install the PAM module. You can do this on Debian and Ubuntu systems by installing the package via apt.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt-get install libpam-google-authenticator
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Next, you’ll need to update the PAM configuration to require verification upon login. Edit /etc/pam/sshd, commenting out the common-auth password authentication and appending the following line:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# @include common-auth&lt;/span&gt;
+auth required pam_google_authenticator.so nullok 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The nullok option marks this method as optional for users who have not yet configured 2FA. Once all of your users are configured, you can remove this to make it a strict requirement.&lt;/p&gt;
+
+&lt;p&gt;Next, open up your sshd configuration and update the following directives:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;UsePAM yes
+PasswordAuthentication no
+ChallengeResponseAuthentication yes
+AuthenticationMethods publickey,keyboard-interactive
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With the PAM module and sshd configured, users can generate their seeds. Users can enable two factor authentication by executing this helper command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;google-authenticator
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now it will prompt you for a few settings. You will want to use time based auth tokens here to use it with the Authenticator app. Next, it renders a QR code to the terminal. Scan this code with your Authenticator app to import your seed value. Then it asks if you want to save your configuration (yes!), and whether to only allow one attempt per code. Depending on your threat model, you may want to enable this to help prevent man in the middle attacks. If you mistype the code, you’ll have to wait until the next cycle.&lt;/p&gt;
+
+&lt;p&gt;Finally it asks if you want to compensate for clock skew issues, and if you want to perform rate limiting. It’s more secure to use the shorter time window if you don’t have clock issues. The rate limiting can be helpful if you’re not already using fail2ban or denyhosts.&lt;/p&gt;
+
+&lt;p&gt;With the configuration changes in place, restart sshd and test a login!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ssh user@example.com
+Authenticated with partial success.
+Verification code:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;recovery&quot;&gt;Recovery&lt;/h2&gt;
+&lt;p&gt;In the event that you lose access to your device, use your recovery code to log in. You did put these in a safe place, right?! If for any reason you do not have access to your recovery codes, log in using the console and disable your verification codes. This can be done by renaming or removing the ~/.google_authenticator file. Then, you can either reconfigure the authenticator, or disable it if needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Requiring a second factor to authenticate is well on its way to becoming the norm. Passwords have proven inadequate, usually due to poor choice of password. Biometric authentication is not good enough. What do you do when your fingerprint is compromised (like in the OPM hack)? It can’t be so easily changed. What stops a malicious attacker from cutting that finger off and using your print?! Fingerprint readers have also been fooled with fake fingers reconstructed from lifted prints. Best to avoid that whole can of worms. Passwords are best used when complex, random, and stored in an encrypted database (i.e. in a password manager). With this added requirement of 2FA, an attacker would not only have to pwn your box to lift your passphrases, but they’d also need access to your phone.&lt;/p&gt;
+
+&lt;p&gt;Now you can sleep a bit more soundly! Keep on the lookout for more ways to lock down your boxes. Subscribe below to get notifications by email as new guides are released. Have any questions? Feel free to leave them in the comments or send me a message!&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-references&quot;&gt;Additional References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm&quot;&gt;https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-14-04&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-14-04&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Google_Authenticator&quot;&gt;https://wiki.archlinux.org/index.php/Google_Authenticator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 13 Dec 2016 20:29:18 -0800</pubDate>
+        <link>https://www.colebaugh.com/security/2016/12/13/ssh-two-factor-auth.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/security/2016/12/13/ssh-two-factor-auth.html</guid>
+        
+        <category>security</category>
+        
+        <category>sysadmin</category>
+        
+        <category>ssh</category>
+        
+        
+        <category>security</category>
+        
+      </item>
+    
+      <item>
+        <title>SSH Multiplexing</title>
+        <description>&lt;p&gt;SSH multiplexing is the ability to combine multiple SSH sessions over one TCP connection. Instead of opening a new TCP stream for each new SSH connection, it uses the existing socket. Then, each session after that passes over the socket instead of opening a new connection. This is not only faster, but reduces the number of open TCP streams from your host!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#use-cases&quot; id=&quot;markdown-toc-use-cases&quot;&gt;Use Cases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#set-up&quot; id=&quot;markdown-toc-set-up&quot;&gt;Set Up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#additional-references&quot; id=&quot;markdown-toc-additional-references&quot;&gt;Additional References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
+&lt;p&gt;SSH multiplexing can save both time and connection overhead. After opening your first session, it creates a socket to pass subsequent connections. This is great if you regularly open multiple terminal sessions to your server. Similarly, when using SSHFS, you’ll mount your remote directories much more quickly. If you’re using a bastion host, this will help when connecting to the hosts in your private subnet. It’s also convenient when using &lt;a href=&quot;/security/2016/12/13/ssh-two-factor-auth.html&quot;&gt;SSH two factor authentication&lt;/a&gt;. On your initial connection you’re required to enter the confirmation code. Any operations afterwards are already authenticated, such as an &lt;code class=&quot;highlighter-rouge&quot;&gt;scp&lt;/code&gt;. In combination with a &lt;a href=&quot;/security/2016/05/31/using-an-ssh-bastion-host.html&quot;&gt;bastion host&lt;/a&gt; the benefits are even greater. SSH tunnels will also pass over this existing socket. X11 and ssh-agent forwarding also work with multiplexing, with one caveat: the forwarded agent will be the first one used. It cannot be overwritten in following connections.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up&quot;&gt;Set Up&lt;/h2&gt;
+&lt;p&gt;To configure SSH multiplexing, open up your ~/.ssh/config and update the desired host definition.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host example.com
+    ControlPath ~/.ssh/%r@%h:%p.socket
+    ControlMaster auto
+    ControlPersist 10m
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Upon establishing a connection to your server, it uses the socket if it is active. Otherwise, it initiates the connection normally, and it creates the socket. The ControlMaster auto directive induces this behavior. Instead, you could specify the argument ‘yes’ at first to create the socket. Then, specify ‘no’ (the default) to use that socket. However, using ‘auto’ is much more flexible.&lt;/p&gt;
+
+&lt;p&gt;This ControlPath specification names the file according to the remote user, host, and port. In this example, it uses the file admin@example.com:22.socket for the user admin. Finally, ControlPersist instructs SSH to leave the socket open for ten minutes of inactivity.&lt;/p&gt;
+
+&lt;p&gt;If you’ll be using multiplexing with a bastion host, be sure to test your configuration first. Leave another SSH or console session open and test a new connection. There are reports of compatibility issues with older versions of OpenSSH. In particular, the ControlMaster and ProxyCommand directives, so it’s better safe than sorry.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;With these few tweaks to your configuration, you’ll enjoy the improved responsiveness in your SSH workflow. Not only does this reduce waiting time, it will also save you valuable overhead when you’re on a poor WAN link. OpenSSH truly is the sysadmin’s Swiss army knife, versatile for any networking situation. Subscribe to my mailing list and connect with me on Twitter to stay up to date! Need more SSH and Linux security tips? Please leave any questions you have in the comments below!&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-references&quot;&gt;Additional References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.scottlowe.org/2015/12/11/using-ssh-multiplexing/&quot;&gt;Using SSH Multiplexing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linux.die.net/man/5/ssh_config&quot;&gt;ssh_config(5)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 30 Nov 2016 18:59:23 -0800</pubDate>
+        <link>https://www.colebaugh.com/sysadmin/2016/11/30/ssh-multiplexing.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/sysadmin/2016/11/30/ssh-multiplexing.html</guid>
+        
+        <category>ssh</category>
+        
+        <category>sysadmin</category>
+        
+        
+        <category>sysadmin</category>
+        
+      </item>
+    
+      <item>
+        <title>Disposable, Reproducible Environments with Vagrant</title>
+        <description>&lt;p&gt;Even if you haven’t used Vagrant, I’m sure you’ve still heard about it. Vagrant is one of the most popular Hashicorp products. It provides an abstraction over virtualization software, using VirtualBox by default. Vagrant creates your development machines by cloning base boxes. You can download these from the public repository or import one from a local file. You can also package and publish your own base boxes. Vagrant can provision your boxes, either on first boot or on demand.  I love this tool, and use it with Puppet for a ton of my development, I can’t recommend it enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#installation&quot; id=&quot;markdown-toc-installation&quot;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#creating-your-first-vagrant-environment&quot; id=&quot;markdown-toc-creating-your-first-vagrant-environment&quot;&gt;Creating Your First Vagrant Environment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-provisioners&quot; id=&quot;markdown-toc-using-provisioners&quot;&gt;Using Provisioners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#plugins&quot; id=&quot;markdown-toc-plugins&quot;&gt;Plugins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Many distros have an outdated version in their repos, so it is best to download the latest version. Download the appropriate package for your operating system on the &lt;a href=&quot;https://www.vagrantup.com/downloads.html&quot;&gt;Vagrant downloads&lt;/a&gt; page. Be sure to verify the checksums and their GPG signature!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6_x86_64.deb
+wget https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6_SHA256SUMS
+wget https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6_SHA256SUMS.sig
+gpg -v vagrant_1.8.6_SHA256SUMS.sig
+shasum vagrant_1.8.6_x86_64.deb &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; grep x86_64.deb vagrant_1.8.6_SHA256SUMS
+sudo dpkg -i vagrant_1.8.6_x86_64.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then verify your installation by running &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant help&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-your-first-vagrant-environment&quot;&gt;Creating Your First Vagrant Environment&lt;/h2&gt;
+&lt;p&gt;Once you have Vagrant installed, you are ready to create your first Vagrant environment. Navigate to the directory you want to store your environments and execute &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant init&lt;/code&gt;. You can also specify the box you’d like to use as an argument.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant init debian/jessie64
+vagrant up
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When you first execute &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant up&lt;/code&gt;, it checks your local box repo and will fetch the box it isn’t present. You can update the box when a new version is released by running &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant box update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once your vm is up, you can log in by executing &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant ssh&lt;/code&gt;. If you are managing multiple vms in your Vagrant environment, you will need to specify the vm name as an argument. Another handy feature is the ssh-config subcommand, which renders an ssh config snippet to access your vm:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant ssh-config
+Host mybox
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /home/user/dev/.vagrant/machines/mybox/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+vagrant ssh-config &amp;gt;&amp;gt; ~/.ssh/config
+ssh mybox
+scp some.file mybox:/tmp/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Vagrant also includes directives for controlling port forwarding and other networking options. Before, we would need to use the Virtual Box GUI or command line to set the IP address or use a bridged adapter. Now, with Vagrant, we can just include the appropriate config in your Vagrantfile. For example, if we needed to forward a port to memcached, we would add the following lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;forwarded_port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;guest: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11211&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;host: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11211&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Vagrant will handle forwarding SSH by default. You can also include an &lt;code class=&quot;highlighter-rouge&quot;&gt;:auto_correct&lt;/code&gt; option, which will instruct Vagrant to try new ports if the specified port is already in use.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-provisioners&quot;&gt;Using Provisioners&lt;/h2&gt;
+&lt;p&gt;A “provisioner” is a bootstrapping script executed on the Vagrant machine. By default, it executes them when the vm is first created, but you can also execute them on command. Vagrant supports a handful of provisioners, including shell scripts, Puppet, and Chef. This is probably my favorite feature! Provisioners allow you to go from a base vm to your desired configuration in no time. This is great for sharing dev environments or building replicas of your production architecture. It’s also perfect for developing your configuration management scripts.&lt;/p&gt;
+
+&lt;p&gt;Let’s begin by getting familiar with the shell provisioner, the most straightforward. This one just copies your shell script onto the vm, then executes it when appropriate. This makes it perfect for installing some base packages or tweaking a system config. For example, if we wanted to roll out the LAMP stack on an Ubuntu Trusty vm, we would use a shell provisioner as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;box&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;ubuntu/trusty64&#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;forwarded_port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;guest: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;host: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;provision&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:shell&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DEBIAN_FRONTEND&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;noninteractive&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;upgrade&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysql&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;php5&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;php5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mysql&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you have your Vagrantfile in place, execute &lt;code class=&quot;highlighter-rouge&quot;&gt;vagrant up&lt;/code&gt;. After it clones your vm, you’ll see apt performing the package updates. When it’s finished, point your web browser at localhost:8080 where you should see your web server running!&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;Once you’ve gotten more familiar with Vagrant, you’ll want to extend it with plugins! There are all kinds of new things you can do with Vagrant plugins. Usually this is adding support for more virtualization technologies. In Vagrant terminology these are the “providers.” For rapid development with lightweight environments, you can switch to Docker or LXC. Using containers with Vagrant is great, enabling fast boot times and low resource footprints. If you want to use LXC, you’ll need to install the plugin, but Docker support is now included by default. Windows users may opt to buy the VMware plugin to use their proprietary hypervisor. Alternatively, the libvirt plugin enables a whole ecosystem of open source *nix virtualization. This includes qemu, KVM, and Xen. For the cloud, there are plugins for creating boxes on AWS, Google Compute, Digital Ocean, and Linode.&lt;/p&gt;
+
+&lt;p&gt;To install a new plugin, just run:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant plugin install vagrant-libvirt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When using Vagrant on the command line with multiple providers, you may need to manually specify the provider. It is also helpful to set a default provider in your bashrc.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant up --provider&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;vmware_fusion
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;VAGRANT_DEFAULT_PROVIDER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;vmware_fusion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Finally, when you’re finished developing and have committed your work, you can throw away the vm:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant destroy -f
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This removes the cloned and provisioned vm, leaving your base box preserved. This saves a bunch of space, especially when you’re working with a number of different environments. If you only want to shutdown the vm temporarily, you can instead use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant halt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This was just the tip of the iceberg when it comes to Vagrant! The real power comes in the development workflows that this tool enables. Vagrant empowers teams with rapid development, ensuring everyone is working with the same environment. No more worrying about operating system or language version incompatibilities! Your developers can write their code in a box just like your production machines. I hope this will spark your creativity to begin constructing some new environments. If you have any questions or would like to learn more about Vagrant and DevOps practices, leave a comment and subscribe to the newsletter below!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Oct 2016 07:39:42 -0700</pubDate>
+        <link>https://www.colebaugh.com/devops/2016/10/19/disposable-vagrant-environments.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/devops/2016/10/19/disposable-vagrant-environments.html</guid>
+        
+        <category>vagrant</category>
+        
+        <category>devops</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started with Jekyll and GitHub Pages</title>
+        <description>&lt;p&gt;Are you are creating your personal site, but don’t want to commit to purchasing a new host to serve it from? Not to worry: GitHub has your back! Using &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, you can host your static site for free! This is a great alternative to a shared web host, allowing you to deploy your site with a mere git push. This makes it perfect for open source projects or startups on a lean budget. But what can I do with a static site?! GitHub supports Jekyll, giving your static site the flexibility a “dynamic” site might have.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is a Ruby gem that allows you to write your static website in a collection of modular pieces. It has support for SCSS and Markdown, making it a popular choice among hackers. Jekyll even comes prepared to organize content into a blog by default! Running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; renders the source into static sources under &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;. You can also use Webrick to serve your application by running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#creating-your-first-application&quot; id=&quot;markdown-toc-creating-your-first-application&quot;&gt;Creating Your First Application&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#advanced-asset-management&quot; id=&quot;markdown-toc-advanced-asset-management&quot;&gt;Advanced Asset Management&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#related-information&quot; id=&quot;markdown-toc-related-information&quot;&gt;Related Information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;creating-your-first-application&quot;&gt;Creating Your First Application&lt;/h3&gt;
+&lt;p&gt;First, create a new repository on GitHub named &lt;em&gt;username&lt;/em&gt;.github.io and check it out. Then, install the Jekyll gem and create your initial application using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll app ./path&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git clone git@github.com:username/username.github.io
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;username.github.io
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo gem install jekyll
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jekyll new .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After generating the default source, you’ll have a directory tree similar to the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;tree
+.
+├── about.md
+├── _config.yml
+├── css
+│   └── main.scss
+├── feed.xml
+├── _includes
+│   ├── footer.html
+│   ├── header.html
+│   ├── head.html
+│   ├── icon-github.html
+│   ├── icon-github.svg
+│   ├── icon-twitter.html
+│   └── icon-twitter.svg
+├── index.html
+├── _layouts
+│   ├── default.html
+│   ├── page.html
+│   └── post.html
+├── _posts
+│   └── 2016-05-31-welcome-to-jekyll.markdown
+└── _sass
+    ├── _base.scss
+    ├── _layout.scss
+    └── _syntax-highlighting.scss
+
+5 directories, 19 files
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In another terminal (or preferably a screen or tmux session), execute &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll --serve --incremental&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jekyll supports the use of “layouts,” a concept used in many web application frameworks. Building your source renders the main content on each page within a shared page “layout.” This reduces the amount of code you need to write and keeps your code &lt;a href=&quot;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&quot;&gt;DRY&lt;/a&gt;. To define variables specific to a certain post, prefix the files with a Front Matter header. This is an embedded YAML document, and contains metadata such as the page title or the permalink.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: Looking for Placeholder Text?
+---
+
+Lorem ipsum...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;First things first, update your details in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. Information defined here will be available in the site variable, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;site.github_username&lt;/code&gt;. If you’ll be serving the site under a URI such as ‘/blog’, make sure to set the &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt; field. Match the protocol of your &lt;code class=&quot;highlighter-rouge&quot;&gt;url&lt;/code&gt; field with the proper protocol if you’ll be serving the site under TLS. Now update the Twitter and GitHub username fields to populate the links in your footer.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: Your Website!
+subtitle: Subtitle
+email: youremail@example.com
+description: &amp;gt; # this means to ignore newlines until &quot;baseurl:&quot;
+    Your site desctiption.
+baseurl: &quot;&quot; # the subpath of your site, e.g. /blog
+url: &quot;https://example.com&quot; # the base hostname &amp;amp; protocol for your site
+twitter_username: your_username
+github_username:  your_username
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Be sure to enter a meaningful description of your site! This populates the meta description tag on your site. Search Engine Result Pages might place it in the description of your page. You also want to include your targeted keywords here to boost SEO. Check out &lt;a href=&quot;https://google.com/trends&quot;&gt;Google Trends&lt;/a&gt; for analyzing specific keyword search trends. Then checkout &lt;a href=&quot;https://adwords.google.com/KeywordPlanner&quot;&gt;Google Keyword Planner&lt;/a&gt; for more keyword and ad group ideas. This will come in handy when you’re designing and writing content to enhance SEO.&lt;/p&gt;
+
+&lt;p&gt;Partial fragments of mark(up|down) can be included from the &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; directory by using Liquid tags, such as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    {% include header.html %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory contains the rendered site, and should be configured to be ignored by your version control system.&lt;/p&gt;
+
+&lt;h3 id=&quot;advanced-asset-management&quot;&gt;Advanced Asset Management&lt;/h3&gt;
+&lt;p&gt;As you progress, you’ll start bringing in external sources, CSS frameworks, JavaScript libraries, etc. At this point, it can be beneficial to add more advanced asset handling capabilities. &lt;a href=&quot;https://github.com/jekyll/jekyll-assets&quot;&gt;jekyll-assets&lt;/a&gt; uses Sprockets to provide asset pipeline functionality. This functionality will be familiar to anyone coming from Ruby on Rails. Besides syncing your vendor sources, jekyll-assets also supports:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;file digesting&lt;/li&gt;
+  &lt;li&gt;asset compression&lt;/li&gt;
+  &lt;li&gt;CDN usage&lt;/li&gt;
+  &lt;li&gt;Many addons, including Bootstrap and Font Awesome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First, install the gem &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-assets&lt;/code&gt;, then add the following to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gems:
+    - jekyll-assets
+assets:
+    assets:
+    - &quot;*.js&quot;
+    - &quot;*.css&quot;
+    - &quot;*.png&quot;
+    - &quot;*.jpg&quot;
+    sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Whitelist the file types that you intend on serving and specify your asset directories. jekyll-assets will ignore any assets not matching the specified patterns.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, we cannot execute dynamic Jekyll plugins like these when hosting on GitHub pages. This reduces the potential for attack on their infrastructure. To get around this limitation, first build your static site. Then, push the results into the root of your master branch. You’ll need to then maintain development in another branch, such as “source” or “dev.”&lt;/p&gt;
+
+&lt;p&gt;To handle updates, you can create a Rake task to handle pushing your site to GitHub. Create a new file name &lt;code class=&quot;highlighter-rouge&quot;&gt;Rakefile&lt;/code&gt; and insert something like:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Github pages publishing.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tmpdir&#39;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Publish Github pages site&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:publish&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Compile the Jekyll site using the config.&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;source&quot;&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;destination&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_site&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;config&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_config.yml&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;git@github.com:username/username.github.io.git&#39;&lt;/span&gt;
+
+    &lt;span class=&quot;no&quot;&gt;Dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mktmpdir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;cp_r&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_site/.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;
+      &lt;span class=&quot;no&quot;&gt;Dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;chdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;
+
+      &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git init&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git add . &amp;amp;&amp;amp; git commit -m &#39;Site updated at &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;utc&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&#39;&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git remote add origin &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;git push origin master --force&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This enables you to generate and push updates to your live site by executing &lt;code class=&quot;highlighter-rouge&quot;&gt;rake publish&lt;/code&gt;! See the related link below for more detail on using a method such as this.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Jekyll is awesome; you can go from zero to sixty in no time! Publishing new content is a breeze, too. Just write out your posts in comfort using Markdown, set the post date, and &lt;code class=&quot;highlighter-rouge&quot;&gt;rake publish&lt;/code&gt;. Keep an eye out and subscribe by email or RSS to learn more in future posts, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comments with Disqus&lt;/li&gt;
+  &lt;li&gt;Tagging and categories&lt;/li&gt;
+  &lt;li&gt;Site search with Algolia&lt;/li&gt;
+  &lt;li&gt;Tips to boost your SEO.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anything else you might need? Leave questions or feedback in the comments below!&lt;/p&gt;
+
+&lt;h3 id=&quot;related-information&quot;&gt;Related Information&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/categories/github-pages-basics/&quot;&gt;GitHub Pages Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html&quot;&gt;Using Jekyll plugins on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Aug 2016 19:35:27 -0700</pubDate>
+        <link>https://www.colebaugh.com/jekyll/2016/08/27/getting-started-with-jekyll-github-pages.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/jekyll/2016/08/27/getting-started-with-jekyll-github-pages.html</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Modifying Existing Resources in Terraform</title>
+        <description>&lt;p&gt;The crew over at &lt;a href=&quot;https://www.hashicorp.com/&quot;&gt;Hashicorp&lt;/a&gt; recently pushed out the latest revision of Terraform, v0.7! It features a bunch of excellent features I’ve been hanging on for and can’t wait to play around with.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-import-command&quot;&gt;The Import Command&lt;/h3&gt;
+&lt;p&gt;In earlier releases, some features that felt missing were those relating handling existing infrastructure. If you had already created resources without Terraform, it would not track it in your state file. Terraform needs this to manage your resources! To control these resources with Terraform, one would need to destroy and recreate it. For an existing production infrastructure, this may be an unacceptable level of downtime. Enter the “import” command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;terraform import aws_instance.www1 i-aabbccdd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The above will instruct Terraform to refresh it’s information about the specified resource. In this example, it will load into the state file an aws_instance “www1” with the details from EC2 instance i-aabbccdd.  You can then add the appropriate resource declaration to your manifests. This allows you to begin managing that resource without ignoring or destroying it.&lt;/p&gt;
+
+&lt;h3 id=&quot;safely-modifying-your-state-file&quot;&gt;Safely Modifying Your State File&lt;/h3&gt;
+&lt;p&gt;Sometimes you may find yourself in a position where you need to modify the state file. If you must perform this dangerous operation manually, be sure to take a backup of your state file. Now we can use the “state” subcommand, a nice CLI wrapper for common state operations. This decreases the chances of the state file becoming corrupt due to something like a formatting error.&lt;/p&gt;
+
+&lt;p&gt;As an example, assume that we have existing resources as described by the following Terraform manifest:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;resource &quot;digitalocean_droplet&quot; &quot;www&quot; {
+    image = &quot;ubuntu-14-04-x64&quot;
+    name = &quot;www&quot;
+    region = &quot;sfo1&quot;
+    size = &quot;512mb&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now say we wanted to refactor our manifest, encapsulating the droplet within a module. After doing so, if we were to execute &lt;code class=&quot;highlighter-rouge&quot;&gt;terraform plan&lt;/code&gt;, we would see Terraform intends to destroy the droplet! This is due to the type change, if executed it would recreate it as a module. This is not what we intended, good thing we always check the Terraform plan before applying! ;)&lt;/p&gt;
+
+&lt;p&gt;To fix this, we can leverage the “state” subcommand. We’ll update the droplet in the state file, replacing it’s droplet type with the new module:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ terraform state list
+$ terraform state mv digitalocean_droplet.www module.www
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ensure your manifest matches the new resource type and name, then recheck your plan. If all looks well, &lt;code class=&quot;highlighter-rouge&quot;&gt;terraform apply&lt;/code&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;related-information&quot;&gt;Related Information&lt;/h3&gt;
+&lt;p&gt;Check out the official Terraform 0.7 announcement to check out the other new features. They just introduced list and map types, too! Keep on the lookout for an upcoming post on getting started with Terraform. The post will include usage and examples, great for new users to get up and running!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hashicorp.com/blog/terraform-0-7.html&quot;&gt;Terraform 0.7 Release Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Aug 2016 18:50:48 -0700</pubDate>
+        <link>https://www.colebaugh.com/devops/2016/08/27/existing-resources-in-terraform.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/devops/2016/08/27/existing-resources-in-terraform.html</guid>
+        
+        <category>terraform</category>
+        
+        <category>devops</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Using an SSH Bastion Host</title>
+        <description>&lt;p&gt;A &lt;strong&gt;bastion host&lt;/strong&gt;, also known as a &lt;strong&gt;jumpbox&lt;/strong&gt;, is a machine whose sole purpose is to provide a secure entryway to your private network. This allows you to restrict network access to your internal services to only the bastion host, rejecting or dropping packets which do not originate from the bastion host. Not only does this allow you to reduce your visible attack surface, it also allows you to better allocate resources to securing your network, as you can put more effort into securing or auditing the jumpbox. This machine acts as a choke point, maintaining record of internal network access and providing a single machine to revoke access from in the event of compromise. Now you can go crazy with all the security tools and techniques you like without dealing with as large of a hassle! Set a non-standard SSH port, lock down that port with fwknop, use a &lt;a href=&quot;/security/2016/12/13/ssh-two-factor-auth.html&quot;&gt;OTP with Google authenticator&lt;/a&gt;, and more!&lt;/p&gt;
+
+&lt;p&gt;First, create a new machine in your datacenter who has access to the internal network you’d like to secure and configure SSH as you like. Just a few suggestions for your /etc/ssh/sshd_config:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ensure that protocol version 1 is disabled with the &lt;code class=&quot;highlighter-rouge&quot;&gt;Protocol 2&lt;/code&gt; directive.&lt;/li&gt;
+  &lt;li&gt;Disable root login or require public key authentication with &lt;code class=&quot;highlighter-rouge&quot;&gt;PermitRootLogin no&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;PermitRootLogin without-password&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Whitelist the UNIX users or groups who are permitted to login via SSH with  the &lt;code class=&quot;highlighter-rouge&quot;&gt;AllowUsers&lt;/code&gt;or &lt;code class=&quot;highlighter-rouge&quot;&gt;AllowGroups&lt;/code&gt; directives.&lt;/li&gt;
+  &lt;li&gt;Listen for connections on a non standard port with &lt;code class=&quot;highlighter-rouge&quot;&gt;Port 22222&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then restart the SSH daemon. Be sure to leave your current session open and test connectivity in a new shell to verify you’re not locked out.&lt;/p&gt;
+
+&lt;p&gt;Next you’ll want to begin defining your hosts in your SSH client configuration for your user at ~/.ssh/config. For example, to configure access to the hosts www1 and db1 through the jumpbox, one would update their config as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host jumpbox
+    Port 22222
+
+Host www1
+    ProxyCommand ssh jumpbox -w %h:%p
+
+Host db1
+    ProxyCommand ssh jumpbox -w %h:%p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is also a great time to configure any convenience features provided by SSH, such as forwarding your SSH agent or specifying a separate SSH key for your jumpbox. Now verify connectivity through the bastion host by connecting with the server’s alias that was defined above and running &lt;code class=&quot;highlighter-rouge&quot;&gt;who&lt;/code&gt; to verify your source IP matches the bastion host.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;user@local:~$ &lt;/span&gt;ssh www1
+&lt;span class=&quot;gp&quot;&gt;user@www1:~$ &lt;/span&gt;who -a
+user   + pts/0        2016-05-31 13:10   .         9983 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;10.0.2.58&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you’ve tested connectivity to all of your internal hosts and are satisfied with the results, you can begin to update your firewall and network configuration to restrict access to SSH (and any other desired services) to packets originating from the jumpbox. Depending on your environment, this may involve updating your AWS VPC security groups, updating your host iptables configuration, configuring your /etc/hosts.allow and /etc/hosts.deny if using inetd, or some combination thereof.&lt;/p&gt;
+
+&lt;p&gt;Finally, verify connectivity again (just to be sure). In case of emergency, you will need to access the machine using another channel, either locally or by serial. Depending on your cloud provider, some route the serial console to the web interface, providing a convenient interface for these situations.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 May 2016 15:16:23 -0700</pubDate>
+        <link>https://www.colebaugh.com/security/2016/05/31/using-an-ssh-bastion-host.html?pk_source=rss</link>
+        <guid isPermaLink="true">https://www.colebaugh.com/security/2016/05/31/using-an-ssh-bastion-host.html</guid>
+        
+        <category>security</category>
+        
+        
+        <category>security</category>
+        
+      </item>
+    
+  </channel>
+</rss>
