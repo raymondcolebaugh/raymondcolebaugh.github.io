@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-assets'
+gem 'jekyll-assets', '>= 2.2.5'
 gem 'jekyll-paginate'
 gem 'jekyll-tagging'
 gem 'jekyll-seo-tag'
