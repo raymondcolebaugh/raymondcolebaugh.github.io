@@ -13,7 +13,7 @@ gem 'sass'
 gem 'uglifier'
 
 group :jekyll_plugins do
-    gem 'algoliasearch-jekyll'
+    gem 'algoliasearch-jekyll', '>= 0.8.0'
 end
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
