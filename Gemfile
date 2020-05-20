@@ -8,7 +8,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.4.0'
 gem 'sass'
 gem 'uglifier'
 
