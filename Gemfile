@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '>= 4.0.0'
 gem 'jekyll-assets'
 gem 'jekyll-paginate'
 gem 'jekyll-tagging'
-gem 'jekyll-seo-tag'
+gem 'jekyll-seo-tag', '>= 2.6.1'
 gem 'jekyll-sitemap'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
